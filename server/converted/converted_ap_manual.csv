@@ -1,0 +1,7 @@
+"*ContactName","EmailAddress","POAddressLine1","POAddressLine2","POAddressLine3","POAddressLine4","POCity","PORegion","POPostalCode","POCountry","*InvoiceNumber","*InvoiceDate","*DueDate","Total","InventoryItemCode","*Description","*Quantity","*UnitAmount","Discount","*AccountCode","*TaxType","TaxAmount","TrackingName1","TrackingOption1","TrackingName2","TrackingOption2","Currency","Trans #"
+"HK Wande Electronic Technology Limited",,,,,,,,,,"Close Jnl","30/06/2020","30/06/2020",,,"According to the adjustment journals provided by Belinda",1,921162.24,,"9999","BAS Excluded",,"","",,,,"66,940"
+"HK Wande Electronic Technology Limited",,,,,,,,,,"ADJ Credito","30/08/2022","30/08/2022",,,"Adjust HK Wande Vendors Balance",1,-141511.24,,"9999","BAS Excluded",,"Class","Sydney",,,,"81,178"
+"HK Wande Electronic Technology Limited",,,,,,,,,,"ADJ Credito","30/08/2022","30/08/2022",,,"Adjust Creditors Balance HK Wande",1,-5974.48,,"9999","BAS Excluded",,"Class","Sydney",,,,"81,179"
+"HK Wande Electronic Technology Limited",,,,,,,,,,"Leasing","31/08/2022","31/08/2022",,,"Reversal Double Entry HK Wande",1,101967.12,,"9999","BAS Excluded",,"Class","Sydney",,,,"81,240"
+"HK Wande Electronic Technology Limited",,,,,,,,,,"HK Wande","31/08/2022","31/08/2022",,,"HK Wande reversal 0f Pay 07/06/22",1,159862.42,,"9999","BAS Excluded",,"Class","Sydney",,,,"81,350"
+"AUSPAC STEEL",,,,,,,,,,"OFFSET","30/09/2022","30/09/2022",,,"Offset Debtors",1,-4130.5,,"9999","BAS Excluded",,"Class","Sydney",,,,"82,241"

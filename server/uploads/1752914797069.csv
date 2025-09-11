@@ -1,0 +1,46 @@
+Trans #,Type,Date,Num,Name,Source Name,Description,Due Date,Item,Account,Class,Tax Code,Qty,Sales Price,Debit,Credit,Amount,Account Type,Tax Amount
+"10,204",Deposit,16/08/2023,,,,Deposit,,,1001 · CBA - Cheque Account,,,,,"2,115.99",,"2,115.99",Bank,
+"10,204",Deposit,16/08/2023,,Australian Taxation Office,,Credit 2022 Income Tax - ATO (Other Debtor as at 30/6/23 per accounts),,,1018 · Other Debtors,,,,,,"2,115.99","-2,115.99",Other Current Asset,
+"10,522",Deposit,27/08/2024,,,,MS 24/0024,,,1001 · CBA - Cheque Account,,,,,"4,271.20",,"4,271.20",Bank,
+"10,522",Deposit,27/08/2024,,0300 Cash Sales - COD,,MS 24/0024,,,12000 · *Undeposited Funds,,,,,,"4,271.20","-4,271.20",Bank,
+"10,523",Deposit,29/08/2024,,,,MS 24/0025,,,1001 · CBA - Cheque Account,,,,,"1,045.00",,"1,045.00",Bank,
+"10,523",Deposit,29/08/2024,,0300 Cash Sales - COD,,MS 24/0025,,,12000 · *Undeposited Funds,,,,,,"1,045.00","-1,045.00",Bank,
+"10,719",Deposit,26/02/2025,EFT,Australian Taxation Office,Australian Taxation Office,,,,1001 · CBA - Cheque Account,,,,,"294,824.00",,"294,824.00",Bank,
+"10,719",Deposit,26/02/2025,EFT,Australian Taxation Office,Australian Taxation Office,BAS Dec 2024,,,25500 · Tax Payable,,,,,,"74,786.00","-74,786.00",Other Current Liability,0
+"10,719",Deposit,26/02/2025,EFT,Australian Taxation Office,Australian Taxation Office,BAS Dec 2024,,,1118 · Income Tax Expense,,,,,,"220,038.00","-220,038.00",Other Expense,0
+"10,314",Deposit,01/01/2024,EFT,CBA,CBA,,,,1001 · CBA - Cheque Account,,,,,9.98,,9.98,Bank,
+"10,314",Deposit,01/01/2024,EFT,CBA,CBA,Debit excess interest,,,1084 · Interest Paid,,NCF,,,,9.98,-9.98,Expense,0
+"10,314",Deposit,01/01/2024,EFT,Australian Taxation Office,CBA,Non-Cap. Acq. - GST Free,,NCF,25500 · Tax Payable,,,,0.00%,,0,0.00,Other Current Liability,
+"10,305",Deposit,30/01/2024,EFT,Australian Securities & Investment Comm,Australian Securities & Investment Comm,,,,1001 · CBA - Cheque Account,,,,,310,,310.00,Bank,
+"10,305",Deposit,30/01/2024,EFT,Australian Securities & Investment Comm,Australian Securities & Investment Comm,2023 Annual Review,,,1074 · Filing Fees,,NCF,,,,310,-310.00,Expense,0
+"10,305",Deposit,30/01/2024,EFT,Australian Taxation Office,Australian Securities & Investment Comm,Non-Cap. Acq. - GST Free,,NCF,25500 · Tax Payable,,,,0.00%,,0,0.00,Other Current Liability,
+"10,306",Deposit,30/01/2024,EFT,Dillon & Elbourn Chartered Accountants,Dillon & Elbourn Chartered Accountants,,,,1001 · CBA - Cheque Account,,,,,290,,290.00,Bank,
+"10,306",Deposit,30/01/2024,EFT,Dillon & Elbourn Chartered Accountants,Dillon & Elbourn Chartered Accountants,Paid to D&E 30/01/24 to be applied to Dec BAS Invoice,,,1024 · Accounts Payable,,,,,,290,-290.00,Accounts Payable,0
+"10,322",Deposit,15/02/2024,EFT,Australian Taxation Office,Australian Taxation Office,,,,1001 · CBA - Cheque Account,,,,,"171,718.00",,"171,718.00",Bank,
+"10,322",Deposit,15/02/2024,EFT,Australian Taxation Office,Australian Taxation Office,BAS Dec 2023,,,25500 · Tax Payable,,,,,,"16,391.00","-16,391.00",Other Current Liability,0
+"10,322",Deposit,15/02/2024,EFT,Australian Taxation Office,Australian Taxation Office,BAS Dec 2023,,,1040 · Provision for Income Tax,,,,,,"155,327.00","-155,327.00",Other Current Liability,0
+"10,338",Deposit,21/03/2024,eft,Australian Taxation Office,Australian Taxation Office,,,,1001 · CBA - Cheque Account,,,,,"146,348.75",,"146,348.75",Bank,
+"10,338",Deposit,21/03/2024,eft,Australian Taxation Office,Australian Taxation Office,income tax 551,,,1040 · Provision for Income Tax,,,,,,"146,348.75","-146,348.75",Other Current Liability,0
+"10,387",Deposit,12/04/2024,EFT,Worimi Local Aboriginal Land Council,Worimi Local Aboriginal Land Council,,,,1001 · CBA - Cheque Account,,,,,"15,000.00",,"15,000.00",Bank,
+"10,387",Deposit,12/04/2024,EFT,Worimi Local Aboriginal Land Council,Worimi Local Aboriginal Land Council,Lot 220 Scholoarship Nov 2023,,,1056 · Scholarships,,NCF,,,,"15,000.00","-15,000.00",Cost of Goods Sold,0
+"10,387",Deposit,12/04/2024,EFT,Australian Taxation Office,Worimi Local Aboriginal Land Council,Non-Cap. Acq. - GST Free,,NCF,25500 · Tax Payable,,,,0.00%,,0,0.00,Other Current Liability,
+"10,388",Deposit,12/04/2024,EFT,Worimi Local Aboriginal Land Council,Worimi Local Aboriginal Land Council,,,,1001 · CBA - Cheque Account,,,,,"15,000.00",,"15,000.00",Bank,
+"10,388",Deposit,12/04/2024,EFT,Worimi Local Aboriginal Land Council,Worimi Local Aboriginal Land Council,Lot 218 Scholarship Feb 2024,,,1056 · Scholarships,,NCF,,,,"15,000.00","-15,000.00",Cost of Goods Sold,0
+"10,388",Deposit,12/04/2024,EFT,Australian Taxation Office,Worimi Local Aboriginal Land Council,Non-Cap. Acq. - GST Free,,NCF,25500 · Tax Payable,,,,0.00%,,0,0.00,Other Current Liability,
+"10,408",Deposit,17/05/2024,EFT,Australian Taxation Office,Australian Taxation Office,,,,1001 · CBA - Cheque Account,,,,,"199,565.00",,"199,565.00",Bank,
+"10,408",Deposit,17/05/2024,EFT,Australian Taxation Office,Australian Taxation Office,BAS March 24,,,25500 · Tax Payable,,,,,,"60,277.00","-60,277.00",Other Current Liability,0
+"10,408",Deposit,17/05/2024,EFT,Australian Taxation Office,Australian Taxation Office,BAS March 24,,,1040 · Provision for Income Tax,,,,,,"139,288.00","-139,288.00",Other Current Liability,0
+"10,444",Deposit,13/06/2024,DirDeb,CBA.,CBA.,,,,1001 · CBA - Cheque Account,,,,,"5,683.50",,"5,683.50",Bank,
+"10,444",Deposit,13/06/2024,DirDeb,CBA.,CBA.,Lending Services Guarantee Fee 00751600,,,1065 · Bank Charges,,NCF,,,,"5,683.50","-5,683.50",Expense,0
+"10,444",Deposit,13/06/2024,DirDeb,Australian Taxation Office,CBA.,Non-Cap. Acq. - GST Free,,NCF,25500 · Tax Payable,,,,0.00%,,0,0.00,Other Current Liability,
+"10,516",Deposit,22/08/2024,EFT,Australian Taxation Office,Australian Taxation Office,,,,1001 · CBA - Cheque Account,,,,,"199,291.00",,"199,291.00",Bank,
+"10,516",Deposit,22/08/2024,EFT,Australian Taxation Office,Australian Taxation Office,BAS June 2024,,,25500 · Tax Payable,,,,,,"63,335.00","-63,335.00",Other Current Liability,0
+"10,516",Deposit,22/08/2024,EFT,Australian Taxation Office,Australian Taxation Office,BAS June 2024,,,1016 · Accounts Receivable,,,,,,"135,956.00","-135,956.00",Accounts Receivable,0
+"10,590",Deposit,05/11/2024,EFT,Worimi Local Aboriginal Land Council,Worimi Local Aboriginal Land Council,,,,1001 · CBA - Cheque Account,,,,,"15,000.00",,"15,000.00",Bank,
+"10,590",Deposit,05/11/2024,EFT,Worimi Local Aboriginal Land Council,Worimi Local Aboriginal Land Council,Lot 220 Scholoarship Nov 2024,,,1056 · Scholarships,,NCF,,,,"15,000.00","-15,000.00",Cost of Goods Sold,0
+"10,590",Deposit,05/11/2024,EFT,Australian Taxation Office,Worimi Local Aboriginal Land Council,Non-Cap. Acq. - GST Free,,NCF,25500 · Tax Payable,,,,0.00%,,0,0.00,Other Current Liability,
+"10,607",Deposit,03/12/2024,EFT,Australian Taxation Office,Australian Taxation Office,,,,1001 · CBA - Cheque Account,,,,,"180,183.50",,"180,183.50",Bank,
+"10,607",Deposit,03/12/2024,EFT,Australian Taxation Office,Australian Taxation Office,2024 FY Tax Payable,,,1040 · Provision for Income Tax,,,,,,"180,183.50","-180,183.50",Other Current Liability,0
+"10,634",Deposit,13/12/2024,DirDeb,CBA.,CBA.,,,,1001 · CBA - Cheque Account,,,,,"5,683.50",,"5,683.50",Bank,
+"10,634",Deposit,13/12/2024,DirDeb,CBA.,CBA.,Lending Services Guarantee Fee 064563,,,1065 · Bank Charges,,NCF,,,,"5,683.50","-5,683.50",Expense,0
+"10,634",Deposit,13/12/2024,DirDeb,Australian Taxation Office,CBA.,Non-Cap. Acq. - GST Free,,NCF,25500 · Tax Payable,,,,0.00%,,0,0.00,Other Current Liability,

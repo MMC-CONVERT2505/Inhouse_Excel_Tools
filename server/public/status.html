@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MMC Convert - Server Status</title>
+  <style>
+    :root {
+      --bg-dark: #0f172a;
+      --card-dark: #1e293b;
+      --primary: #10b981;
+      --accent: #facc15;
+      --text-light: #f1f5f9;
+      --text-subtle: #94a3b8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-light);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    .status-card {
+      background: var(--card-dark);
+      border-radius: 16px;
+      padding: 40px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      background-color: rgba(16, 185, 129, 0.1);
+      color: var(--primary);
+      font-weight: 600;
+      font-size: 0.85rem;
+      width: fit-content;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    p {
+      color: var(--text-subtle);
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      border-color: var(--accent);
+    }
+
+    @media (max-width: 480px) {
+      .status-card {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="status-card">
+    <span class="badge">✅ Server Online</span>
+    <h1>Excel Data Convertor Running Smoothly</h1>
+    <p>
+      Your API engine is live and accessible at:<br>
+      <a href="http://44.202.160.111:3000/" target="_blank">
+        44.202.160.111:3000
+      </a>
+    </p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,946 @@
+[
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cash at bank - Macquarie ....07",
+    "Amount": "18334.81",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "JonJon Developments",
+    "Amount": "60035.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Prestige Glass Solutions P/L",
+    "Amount": "58722.69",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Retained earnings",
+    "Amount": "1049505.79",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "ATO",
+    "Amount": "28226.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Bond",
+    "Amount": "22166.67",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Borrowing Expense",
+    "Amount": "3054.80",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Borrowing Expense:Accumulated Depreciation",
+    "Amount": "-363.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "General pool",
+    "Amount": "215873.29",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "General pool:Accumlated depreciation",
+    "Amount": "-62746.91",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Inventory Asset",
+    "Amount": "6184373.65",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Inventory Asset-1",
+    "Amount": "-6300.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Jon Jon Development",
+    "Amount": "10697.80",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "CASTRO WAY:FURNITURE & FIXTURES",
+    "Amount": "11805.02",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "KDT EDGE BANDING MACHINE",
+    "Amount": "71669.73",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Leasehold Improvement",
+    "Amount": "17820.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Leasehold Improvement:Accumulated Depreciation",
+    "Amount": "-2139.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicles:HILUX - JONCE",
+    "Amount": "15195.08",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicles:HILUX JOHN",
+    "Amount": "14908.04",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicles:JEEP",
+    "Amount": "12408.82",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicles:LANDCRUISER",
+    "Amount": "10949.19",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicles:Motor Vehiciles At cost",
+    "Amount": "-37500.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicles:TOYOTA",
+    "Amount": "3110.85",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Retained earnings",
+    "Amount": "-574323.81",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "GST Clearing",
+    "Amount": "585329.43",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Loan - Employee",
+    "Amount": "500.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "PAYG Witholding tax",
+    "Amount": "-376167.84",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Payroll Liabilities",
+    "Amount": "53504.88",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Prospa Financial",
+    "Amount": "146379.80",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Sundry creditors",
+    "Amount": "560.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Super Payable",
+    "Amount": "-7233.09",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Tax Payable",
+    "Amount": "-420820.07",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Tax Payable---:Income Tax",
+    "Amount": "-0.88",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Tax Payable---:Tax Payable Installment",
+    "Amount": "7875.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "BAS Amendment",
+    "Amount": "1635.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Directors Drawings:drawings Jonce",
+    "Amount": "72500.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Directors Loan",
+    "Amount": "-212756.13",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Directors Loan:Directors Loan - John",
+    "Amount": "-29256.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Directors Loan:Directors Loan - Jonce",
+    "Amount": "-53175.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Hire Purchase Holden Utility AM",
+    "Amount": "-62996.52",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Hire Purchase Holden Utility AM:Unexpired Interest",
+    "Amount": "14435.25",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Hire Purchase Jeep",
+    "Amount": "-20022.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Hire Purchase Jeep:Unexpired Interest",
+    "Amount": "2361.70",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Hire Purchase Toyota Kluger",
+    "Amount": "-41734.33",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Hire Purchase Toyota Kluger:Unexpired Interest",
+    "Amount": "4175.67",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Opening Bal Equity",
+    "Amount": "-42460.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Opening balance equity",
+    "Amount": "0.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Retained Earnings",
+    "Amount": "-5676180.71",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "interest received",
+    "Amount": "-18173.30",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Sales",
+    "Amount": "-2659739.13",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Sales of Product Income",
+    "Amount": "-11024.18",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "SCRAP METAL",
+    "Amount": "-2791.69",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold",
+    "Amount": "497.59",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:GLASS",
+    "Amount": "9173.75",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:KITCHENS",
+    "Amount": "-300.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:Material",
+    "Amount": "119.28",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:MIRRORS",
+    "Amount": "33390.41",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:PAINT",
+    "Amount": "5628.48",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:PARTS",
+    "Amount": "3104.66",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:SHELVING",
+    "Amount": "12179.26",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:SHOWERS",
+    "Amount": "247579.87",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:SILICON",
+    "Amount": "10062.25",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of Goods Sold:WARDROBE",
+    "Amount": "162651.80",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Cost of sales",
+    "Amount": "6160.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Accountancy fees",
+    "Amount": "7572.72",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Administration costs",
+    "Amount": "3102.20",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Advertising",
+    "Amount": "3825.75",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Bad debts written off",
+    "Amount": "-14999.13",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "BANK FEES",
+    "Amount": "105.41",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "BANK FEES:Merchant Fees",
+    "Amount": "190.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "CLEANING",
+    "Amount": "7113.35",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "COMPUTER PROGRAMS",
+    "Amount": "2604.58",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Damages",
+    "Amount": "-25.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "DELIVERY FEE",
+    "Amount": "45.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Directors fees:directors Reimbursement",
+    "Amount": "16261.96",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Electricity",
+    "Amount": "4073.26",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Entertainment",
+    "Amount": "1976.70",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "EQUIPMENT",
+    "Amount": "82.05",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Filing fees",
+    "Amount": "310.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "FITTER",
+    "Amount": "394710.93",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "FORKLIFT GAS",
+    "Amount": "1104.75",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Freight and cartage",
+    "Amount": "1506.35",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Gifts",
+    "Amount": "3178.50",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Insurance",
+    "Amount": "4225.65",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Insurance:Workers compensation",
+    "Amount": "46437.37",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicle - 1AU4YK:Fuel",
+    "Amount": "492.17",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicle - 1AU4YK:Insurance and registration",
+    "Amount": "832.27",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicle - 1VM5KJ:Fuel",
+    "Amount": "1594.72",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicle - 1VM5KJ:Repairs & Maintenance",
+    "Amount": "1072.72",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor vehicle - AMN671:Petrol and oil",
+    "Amount": "3067.60",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor vehicle - AMN671:Repairs",
+    "Amount": "573.94",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor vehicle - AMN681:Petrol and oil",
+    "Amount": "1635.63",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor vehicle - AMN681:Repairs",
+    "Amount": "5622.73",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicle - TSU681:Fuel",
+    "Amount": "101.64",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicle - TSU681:Insurance & registration",
+    "Amount": "179.90",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicle - TSU681:Repairs & Maintenance",
+    "Amount": "267.18",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Motor Vehicle expense- TRUCK:Fuel",
+    "Amount": "98.63",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "OFFICE EQUIPMENT/PCs",
+    "Amount": "26.36",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Packing materials",
+    "Amount": "501.74",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "PARKING/TOLLS",
+    "Amount": "710.52",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Payroll Expenses",
+    "Amount": "9052.03",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Payroll Expenses:Payroll Tax",
+    "Amount": "3049.76",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Payroll Expenses:Super",
+    "Amount": "41088.34",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Payroll Expenses:Wages",
+    "Amount": "373530.36",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Printing and stationery",
+    "Amount": "1268.39",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Rates:Council",
+    "Amount": "5826.52",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Rates:Water",
+    "Amount": "1259.60",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "RENT",
+    "Amount": "58692.69",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "REPAIRS & MAINTENANCE",
+    "Amount": "6179.15",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "RUBBISH",
+    "Amount": "19820.58",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Safety",
+    "Amount": "931.35",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "SALES REPRESENTATIVE:COMMISSION",
+    "Amount": "79963.00",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Staff amenities",
+    "Amount": "1963.55",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "STATIONARY",
+    "Amount": "759.85",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Superannuation ATO",
+    "Amount": "14138.92",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Telephone",
+    "Amount": "2538.91",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Tool replacements",
+    "Amount": "5467.51",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  },
+  {
+    "Journal No": "Opening balance",
+    "Journal Date": "31/12/2023",
+    "Account": "Owner Drawings",
+    "Amount": "3831.62",
+    "Currency Code": "",
+    "Exchange Rate": ""
+  }
+]

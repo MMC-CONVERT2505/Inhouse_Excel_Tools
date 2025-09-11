@@ -1,0 +1,2 @@
+"*ContactName","EmailAddress","POAddressLine1","POAddressLine2","POAddressLine3","POAddressLine4","POCity","PORegion","POPostalCode","POCountry","*InvoiceNumber","*InvoiceDate","*DueDate","Total","InventoryItemCode","*Description","*Quantity","*UnitAmount","*AccountCode","*TaxType","TaxAmount","TrackingName1","TrackingOption1","TrackingName2","TrackingOption2","Currency","Trans #"
+"Dillon & Elbourn Chartered Accountants",,,,,,,,,,"EFT","30/01/2024","30/01/2024",,,"Paid to D&E 30/01/24 to be applied to Dec BAS Invoice",1,290,"9999","BAS Excluded",,,"",,,,"10,306"
