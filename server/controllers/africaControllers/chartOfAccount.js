@@ -3,8 +3,6 @@ import {readExcelToJson} from "../../utils/excelReader.js";
 import { writeJsonToExcel, saveJsonToFile } from "../../utils/excelWriter.js";
 import { getPaths } from "../../utils/filePaths.js";
 
-
-
 const type = "coa";
 const { excelFilePath, outputJsonPath, modifiedExcelPath } = getPaths(type);
 
