@@ -1,12 +1,22 @@
 import { move, pathExists } from "fs-extra";
-import {readExcelToJson} from "../../utils/excelReader.js";
+import { readExcelToJson } from "../../utils/excelReader.js";
 import { writeJsonToExcel, saveJsonToFile } from "../../utils/excelWriter.js";
 import { getPaths } from "../../utils/filePaths.js";
 
 const type = "coa";
 const { excelFilePath, outputJsonPath, modifiedExcelPath } = getPaths(type);
 
-const allowedColumns = ["Account No.", "Account", "Type", "Detail type", "Description", "Tax rate", "Currency"];
+const changeColumnName = {
+    "Account No.": "Account number",
+    "Account": "Account name",
+    "Type": "Account type",
+    "Detail type": "Detail type",
+    "Tax rate": "Tax rate",
+    "Description": "Description",
+    "Currency": "Currency"
+};
+
+const allowedColumns = ["Account number", "Account name", "Account type", "Detail type", "Description", "Tax rate", "Currency"];
 
 const filterColumns = (data) => {
     return data.map(row => {
@@ -24,19 +34,22 @@ const mapType = (qboType) => {
     const map = {
         "Current liabilities": "Current liabilities",
         "Accounts receivable": "Accounts receivable (A/R)",
-        "Fixed assets":"Fixed assets",
-        "Other Current Assets":"Non-current assets",
-        "Accounts Payable":"Accounts Payable (A/P)",
-        "Credit card":"Credit card",
-        "Current assets":"Current assets",
-        "Other Current Liabilities":"Non-current liabilities",
-        "Equity":"Owner's equity",
-        "Income":"Income",
-        "Cost of Goods Sold":"Cost of sales",
-        "Expenses":"Expenses",
-        "Other income":"Other income",
-        "Other expense":"Other expense",
-        "Bank":"Cash and cash equivalents",
+        "Fixed assets": "Fixed assets",
+        "Other Current Assets": "Non-current assets",
+        "Accounts Payable": "Accounts Payable (A/P)",
+        "Credit card": "Credit card",
+        "Current assets": "Current assets",
+        "Other Current Liabilities": "Non-current liabilities",
+        "Equity": "Owner's equity",
+        "Income": "Income",
+        "Cost of Goods Sold": "Cost of sales",
+        "Expenses": "Expenses",
+        "Other income": "Other income",
+        "Other expense": "Other expense",
+        "Bank": "Cash and cash equivalents",
+        "Long Term Liability": "Non-current liabilities",
+        "Suspense": "Non-current liabilities",
+        "Non-Posting": "Non-current liabilities",
     };
     return map[qboType] || null;
 };
@@ -54,11 +67,12 @@ const mapDetailType = (type) => {
         "Non-current liabilities": "Other non-current liabilities",
         "Owner's equity": "Owner's Equity",
         "Income": "Revenue - General",
-        "Cost of sales": "Cost of Sales",
+        "Cost of sales": "Supplies and materials - COS",
         "Expenses": "Office/General Administrative Expenses",
         "Other income": "Other Miscellaneous Income",
         "Other expense": "Other Expense",
-        "Cash and cash equivalents": "Cash and cash equivalents",
+        "Cash and cash equivalents": "Cash and cash equivalents/Bank",
+        "Non-current liabilities": "Other non-current liabilities"
     };
     return map[type] || null;
 };
@@ -72,6 +86,19 @@ const mapTaxRate = (tax) => {
         "GST on purchases": "GST on purchases",
     };
     return map[tax] || null;
+};
+
+// 📝 Rename columns according to changeColumnName
+const renameColumns = (data) => {
+    return data.map(row => {
+        const newRow = {};
+        for (const key in row) {
+            // Agar mapping hai to naya naam lo, warna original
+            const newKey = changeColumnName[key] || key;
+            newRow[newKey] = row[key];
+        }
+        return newRow;
+    });
 };
 
 // 📤 Upload Excel file
@@ -92,7 +119,7 @@ export async function uploadCoa(req, res) {
 export async function processCoa(req, res) {
     try {
         let jsonData = await readExcelToJson(excelFilePath);
-
+        jsonData = renameColumns(jsonData);
         // Optionally enforce validation
         // for (const row of jsonData) {
         //     if (!row["Account No."]) {
@@ -101,10 +128,10 @@ export async function processCoa(req, res) {
         // }
 
         jsonData = jsonData.map(row => {
-            const typeValue = mapType(row.Type);
-            if (typeValue) row["Type"] = typeValue;
+            const typeValue = mapType(row["Account type"]);
+            if (typeValue) row["Account type"] = typeValue;
 
-            const detailTypeValue = mapDetailType(row.Type);
+            const detailTypeValue = mapDetailType(row["Account type"]);
             if (detailTypeValue) row["Detail type"] = detailTypeValue;
 
             const taxRateValue = mapTaxRate(row["Tax rate"]);

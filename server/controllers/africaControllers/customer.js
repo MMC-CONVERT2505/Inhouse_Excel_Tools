@@ -1,5 +1,5 @@
 import { move, pathExists } from "fs-extra";
-import {readExcelToJson} from "../../utils/excelReader.js";
+import { readExcelToJson } from "../../utils/excelReader.js";
 import { writeJsonToExcel, saveJsonToFile } from "../../utils/excelWriter.js";
 import { getPaths } from "../../utils/filePaths.js";
 import validator from "validator";
@@ -8,12 +8,73 @@ const { isEmail } = validator;
 const type = "customer";
 const { excelFilePath, outputJsonPath, modifiedExcelPath } = getPaths(type);
 
+const changeColumnName = {
+  "Company Name": "Company",
+  "First Name": "First Name",
+  "Last Name": "Last Name",
+  "Customer": "Display Name As",
+  "Billing Address": "Billing Address Line 1",
+  "Billing Street": "Billing Address Line 2",
+  "Billing City": "Billing Address City",
+  "Billing postal code": "Billing Address Postal Code",
+  "Billing Country": "Billing Address Country",
+  "Billing County": "Billing Address Country Subdivision Code",
+  "Shipping Address": "Shipping Address Line 1",
+  "Shipping Street": "Shipping Address Line 2",
+  "Shipping City": "Shipping Address City",
+  "Shipping Postal code": "Shipping Address Postal Code",
+  "Shipping Country": "Shipping Address Country",
+  "Shipping Province/Region/State": "Shipping Address Country Subdivision Code",
+  "Phone Numbers": "Phone",
+  "Mobile": "Mobile",
+  "Fax": "Fax",
+  "Other": "Other",
+  "Website": "Website",
+  "Email": "Email",
+  "Terms": "Terms",
+  "Payment Method": "Preferred Payment Method",
+  "VAT Registration No. of Customer": "Tax Resale No",
+  "Delivery Method": "Preferred Delivery Method",
+  "Notes": "Notes",
+  "Customer Type": "Customer Taxable",
+  "Currency": "Currency Code"
+}
 const allowedColumns = [
-  "Customer", "Phone Numbers", "Email", "Full Name", "Billing Address", "Shipping Address", "Phone", "Company Name",
-  "Website", "Delivery Method", "Other", "Taxable", "Credit Card No.", "CC Expires", "Payment Method", "Terms",
-  "Customer Type", "Note", "Billing Street", "Billing City", "Billing State/Territory", "Billing postcode", "Billing Country",
-  "Shipping Street", "Shipping City", "Shipping State/Territory", "Shipping Postcode", "Shipping Country",
-  "Last Name", "First Name", "Currency"
+  "Title",
+  "Company",
+  "First Name",
+  "Middle Name",
+  "Last Name",
+  "Suffix",
+  "Display Name As",
+  "Print On Check As",
+  "Billing Address Line 1",
+  "Billing Address Line 2",
+  "Billing Address Line 3",
+  "Billing Address City",
+  "Billing Address Postal Code",
+  "Billing Address Country",
+  "Billing Address Country Subdivision Code",
+  "Shipping Address Line 1",
+  "Shipping Address Line 2",
+  "Shipping Address Line 3",
+  "Shipping Address City",
+  "Shipping Address Postal Code",
+  "Shipping Address Country",
+  "Shipping Address Country Subdivision Code",
+  "Phone",
+  "Mobile",
+  "Fax",
+  "Other",
+  "Website",
+  "Email",
+  "Terms",
+  "Preferred Payment Method",
+  "Tax Resale No",
+  "Preferred Delivery Method",
+  "Notes",
+  "Customer Taxable",
+  "Currency Code"
 ];
 
 // ✅ Filter and validate
@@ -49,6 +110,17 @@ const filterColumns = (data) => {
   });
 };
 
+const renameColumns = (data) => {
+  return data.map(row => {
+    const newRow = {};
+    for (const key in row) {
+      // Agar mapping hai to naya naam lo, warna original
+      const newKey = changeColumnName[key] || key;
+      newRow[newKey] = row[key];
+    }
+    return newRow;
+  });
+};
 
 // ✅ Upload: move file to correct location
 export async function uploadCustomer(req, res) {
@@ -58,7 +130,7 @@ export async function uploadCustomer(req, res) {
     }
 
     await move(req.file.path, excelFilePath, { overwrite: true });
-    console.log("✅Australia Customer file saved at:", excelFilePath);
+    console.log("✅ Africa Customer file saved at:", excelFilePath);
     res.send({ message: "File uploaded and saved successfully" });
   } catch (err) {
     console.error("❌ File move error:", err.message);
@@ -69,13 +141,14 @@ export async function uploadCustomer(req, res) {
 // ✅ Convert
 export async function processCustomer(req, res) {
   try {
-    const jsonData = await readExcelToJson(excelFilePath);
+    let jsonData = await readExcelToJson(excelFilePath);
+    jsonData = renameColumns(jsonData);
     const filteredData = filterColumns(jsonData);
 
     await saveJsonToFile(filteredData, outputJsonPath);
     await writeJsonToExcel(filteredData, modifiedExcelPath);
 
-    console.log("✅Australia Customer Excel processed.");
+    console.log("✅ Africa Customer Excel processed.");
     res.send("Customer data processed and saved.");
   } catch (error) {
     console.error("❌ Error processing Customer:", error.message);

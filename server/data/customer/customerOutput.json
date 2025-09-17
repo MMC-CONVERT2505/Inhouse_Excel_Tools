@@ -1,1 +1,540 @@
-[]
+[
+  {
+    "Company": "10 For 230_20057797_PLUS_10",
+    "First Name": "Nokuthula",
+    "Last Name": "Shabangu",
+    "Display Name As": "10 For 230_20057797_PLUS_10",
+    "Email": "mbsoultions@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "10 For 230_20057797_PLUS_3",
+    "First Name": "Nokuthula",
+    "Last Name": "Shabangu",
+    "Display Name As": "10 For 230_20057797_PLUS_3",
+    "Email": "mbsoultions@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "10 For 230_20057797_PLUS_4",
+    "First Name": "Nokuthula",
+    "Last Name": "Shabangu",
+    "Display Name As": "10 For 230_20057797_PLUS_4",
+    "Email": "mbsoultions@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "10 For 230_20057797_PLUS_5",
+    "First Name": "Nokuthula",
+    "Last Name": "Shabangu",
+    "Display Name As": "10 For 230_20057797_PLUS_5",
+    "Email": "mbsoultions@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "10 For 230_20057797_PLUS_6",
+    "First Name": "Nokuthula",
+    "Last Name": "Shabangu",
+    "Display Name As": "10 For 230_20057797_PLUS_6",
+    "Email": "mbsoultions@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "10 For 230_20057797_PLUS_7",
+    "First Name": "Nokuthula",
+    "Last Name": "Shabangu",
+    "Display Name As": "10 For 230_20057797_PLUS_7",
+    "Email": "mbsoultions@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "10 For 230_20057797_PLUS_8",
+    "First Name": "Nokuthula",
+    "Last Name": "Shabangu",
+    "Display Name As": "10 For 230_20057797_PLUS_8",
+    "Email": "mbsoultions@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "10 For 230_20057797_PLUS_9",
+    "First Name": "Nokuthula",
+    "Last Name": "Shabangu",
+    "Display Name As": "10 For 230_20057797_PLUS_9",
+    "Email": "mbsoultions@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "A2Z Tiles",
+    "First Name": "Stacey",
+    "Display Name As": "A2Z Tiles",
+    "Billing Address Line 1": "A2Z Tiles\r\r\nEdenvale",
+    "Billing Address Line 2": "A2Z Tiles\r\r\nEdenvale",
+    "Phone": 114531815,
+    "Email": "admin@a2ztiles.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Akwande Inzuzo",
+    "First Name": "Hudson",
+    "Last Name": "Mtsweni",
+    "Display Name As": "Akwande Inzuzo",
+    "Billing Address Line 1": "Akwande Inzuzo",
+    "Billing Address Line 2": "Akwande Inzuzo",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Display Name As": "Ansie",
+    "Billing Address Line 1": "Ansie",
+    "Billing Address Line 2": "Ansie",
+    "Email": "ansie@idea-media.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Auto Interior",
+    "Display Name As": "Auto Interior",
+    "Billing Address Line 1": "Auto Interior\r\r\n5th Street\r\r\nWynberg, Sandton\r\nWynberg\r\nSandton",
+    "Billing Address Line 2": "Auto Interior\r\r\n5th Street\r\r\nWynberg, Sandton",
+    "Billing Address City": "Wynberg",
+    "Billing Address Country": "Sandton",
+    "Email": "autointerior@polka.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Beactress Business Enterprise",
+    "First Name": "Abram Jonas",
+    "Last Name": "Mahlangu",
+    "Display Name As": "Beactress Business Enterprise",
+    "Phone": "+27 826741076",
+    "Other": "+27 826741076",
+    "Email": "mgwezan1@outlook.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Blackrock Engineering (PTY) LTD",
+    "Display Name As": "Blackrock Engineering (PTY) LTD",
+    "Billing Address Line 1": "Blackrock Engineering (PTY) LTD\r\r\n12 Botha Laan\r\r\nWitbank, 1035\r\nWitbank 1035",
+    "Billing Address Line 2": "Blackrock Engineering (PTY) LTD\r\r\n12 Botha Laan\r\r\nWitbank, 1035",
+    "Billing Address City": "Witbank",
+    "Billing Address Postal Code": "1035",
+    "Shipping Address Line 1": "Blackrock Engineering (PTY) LTD\r\r\n12 Botha Laan\r\r\nWitbank\r\r\n1035\r\nWitbank 1035",
+    "Shipping Address Line 2": "Blackrock Engineering (PTY) LTD\r\r\n12 Botha Laan\r\r\nWitbank\r\r\n1035",
+    "Shipping Address City": "Witbank",
+    "Shipping Address Postal Code": "1035",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Bodacious Monitoring (Pty)Ltd",
+    "Display Name As": "Bodacious Monitoring (Pty)Ltd",
+    "Billing Address Line 1": "Bodacious Monitoring (Pty)Ltd\r\r\nUnit 6 13 Sovereign Drive\r\r\nRoute 21 Corporate Park\r\r\nIrene, Pretoria\r\r\nVat number: 4270252721\r\nVat number: 4270252721",
+    "Billing Address Line 2": "Bodacious Monitoring (Pty)Ltd\r\r\nUnit 6 13 Sovereign Drive\r\r\nRoute 21 Corporate Park\r\r\nIrene, Pretoria\r\r\nVat number: 4270252721",
+    "Billing Address City": "Vat number:",
+    "Billing Address Postal Code": "4270252721",
+    "Phone": 118232820,
+    "Email": "admin2@bodacious.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Display Name As": "Bongani Malaza",
+    "Billing Address Line 1": "Bongani Malaza",
+    "Billing Address Line 2": "Bongani Malaza",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Bright Idea Projects 112 CC",
+    "First Name": "Ralph",
+    "Display Name As": "Bright Idea Projects 112 CC",
+    "Billing Address Line 1": "Bright Idea Projects 112 CC\r\r\nUnit 5 Winnipeg Street\r\r\nSpartan, 1619\r\r\nJohannesburg\r\nSpartan 1619",
+    "Billing Address Line 2": "Bright Idea Projects 112 CC\r\r\nUnit 5 Winnipeg Street\r\r\nSpartan, 1619\r\r\nJohannesburg",
+    "Billing Address City": "Spartan",
+    "Billing Address Postal Code": "1619",
+    "Phone": 785659761,
+    "Email": "ralph@bipco.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Capital Plumbing",
+    "First Name": "Melanie",
+    "Display Name As": "Capital Plumbing",
+    "Billing Address Line 1": "Capital Plumbing",
+    "Billing Address Line 2": "Capital Plumbing",
+    "Email": "melanie@capitalplumbing.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Daisy",
+    "Display Name As": "Daisy",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "DRD Steel Services t/s Madison Steel",
+    "First Name": "Maureen",
+    "Display Name As": "DRD Steel Services t/a Madison Steel",
+    "Billing Address Line 1": "DRD Enterprises\r\r\n37 Mitchelson Road\r\r\nWestwood\r\r\nBoksburg\r\nBoksburg",
+    "Billing Address Line 2": "DRD Enterprises\r\r\n37 Mitchelson Road\r\r\nWestwood\r\r\nBoksburg",
+    "Billing Address City": "Boksburg",
+    "Phone": 118248351,
+    "Email": "moreen@drde.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Dudu",
+    "Display Name As": "Dudu",
+    "Billing Address Line 1": "Dudu",
+    "Billing Address Line 2": "Dudu",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Handson Tech",
+    "First Name": "Phillip",
+    "Last Name": "Haas",
+    "Display Name As": "Handson Tech",
+    "Billing Address Line 1": "Hands Tech\r\r\n988 on Meadowbrook, Unit 11\r\r\nJacaranda Avenue, Olivedale,\r\r\n2158\r\nJacaranda Avenue 2158\r\nOlivedale",
+    "Billing Address Line 2": "Hands Tech\r\r\n988 on Meadowbrook, Unit 11\r\r\nJacaranda Avenue, Olivedale,\r\r\n2158",
+    "Billing Address City": "Jacaranda Avenue",
+    "Billing Address Postal Code": "2158",
+    "Billing Address Country": "Olivedale",
+    "Phone": 114622581,
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Hyper Doors",
+    "First Name": "Nick",
+    "Last Name": "van den Berg",
+    "Display Name As": "Hyper Doors",
+    "Billing Address Line 1": "Hyper Doors",
+    "Billing Address Line 2": "Hyper Doors",
+    "Phone": 280070104,
+    "Email": "nick@hyperdoors.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Display Name As": "Igagu Enterprise (Pty) Ltd",
+    "Billing Address Line 1": "41 Voltargo Village\r\r\nWilge, Emalahleni\r\nWilge\r\nEmalahleni",
+    "Billing Address Line 2": "41 Voltargo Village\r\r\nWilge, Emalahleni",
+    "Billing Address City": "Wilge",
+    "Billing Address Country": "Emalahleni",
+    "Phone": 130071367,
+    "Email": "riette@igagu.org",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Display Name As": "Ixion Network Solutions (Pty) Ltd",
+    "Billing Address Line 1": "Ixiom Network Solutions (Pty) Ltd\r\r\nCnr Michelle Avenue & Jochem van Bruggen\r\r\nNo 2 The Lofts, Meyersdal\r\r\nAlberton\r\nNo 2 The Lofts\r\nMeyersdal",
+    "Billing Address Line 2": "Ixiom Network Solutions (Pty) Ltd\r\r\nCnr Michelle Avenue & Jochem van Bruggen\r\r\nNo 2 The Lofts, Meyersdal\r\r\nAlberton",
+    "Billing Address City": "No 2 The Lofts",
+    "Billing Address Country": "Meyersdal",
+    "Email": "leeann@ixiom.co.za",
+    "Terms": "COD",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Jan Piereweit",
+    "First Name": "Vanessa",
+    "Last Name": "Van Vollenhoven",
+    "Display Name As": "Jan Pierewiet",
+    "Billing Address Line 1": "Jan Piereweit\r\r\nJan Celliers Primary School\r\r\nLower Park Drive\r\r\nJohannesburg\r\nJohannesburg",
+    "Billing Address Line 2": "Jan Piereweit\r\r\nJan Celliers Primary School\r\r\nLower Park Drive\r\r\nJohannesburg",
+    "Billing Address City": "Johannesburg",
+    "Phone": 828053565,
+    "Email": "info@jan-pierewiet.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "LIT Africa (Pty) Ltd",
+    "First Name": "Stefan",
+    "Last Name": "Harth",
+    "Display Name As": "LIT Africa (Pty) Ltd",
+    "Billing Address Line 1": "LIT Africa (Pty) Ltd\r\r\nCube Workspace\r\r\n1 Wedgewoodlink\r\r\nBraynston\r\nBraynston",
+    "Billing Address Line 2": "LIT Africa (Pty) Ltd\r\r\nCube Workspace\r\r\n1 Wedgewoodlink\r\r\nBraynston",
+    "Billing Address City": "Braynston",
+    "Phone": 113155444,
+    "Email": "stefanh@litafrica.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Logan",
+    "Display Name As": "Logan",
+    "Billing Address Line 1": "Logan",
+    "Billing Address Line 2": "Logan",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Maelgwyn Mineral Services Africa (Pty) Lt",
+    "First Name": "Steven",
+    "Last Name": "Stone",
+    "Display Name As": "Maelgwyn Mineral Services Africa (Pty) Lt",
+    "Billing Address Line 1": "Maelgwyn Mineral Services Africa (Pty) Lt\r\r\n1331 Staal Road\r\r\nCnr Spokeshave & Staal Street\r\r\nExt 2, Maraisburg\r\nExt 2\r\nMaraisburg",
+    "Billing Address Line 2": "Maelgwyn Mineral Services Africa (Pty) Lt\r\r\n1331 Staal Road\r\r\nCnr Spokeshave & Staal Street\r\r\nExt 2, Maraisburg",
+    "Billing Address City": "Ext 2",
+    "Billing Address Country": "Maraisburg",
+    "Phone": 114740705,
+    "Email": "petro@maelgwynafrica.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Masc Projects",
+    "First Name": "Nabene",
+    "Display Name As": "Masc Project",
+    "Billing Address Line 1": "Masc Projects\r\r\n56B Ronald Avenue\r\r\nLinbro Park\r\r\nJohannesburg, 2090\r\nJohannesburg 2090",
+    "Billing Address Line 2": "Masc Projects\r\r\n56B Ronald Avenue\r\r\nLinbro Park\r\r\nJohannesburg, 2090",
+    "Billing Address City": "Johannesburg",
+    "Billing Address Postal Code": "2090",
+    "Phone": 111000088,
+    "Email": "nabenem@mascsolutions.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Masc Prop",
+    "First Name": "Nabene",
+    "Display Name As": "Masc Prop",
+    "Billing Address Line 1": "Masc Prop\r\r\n56B Ronald Avenue\r\r\nLinbro Park\r\nLinbro Park",
+    "Billing Address Line 2": "Masc Prop\r\r\n56B Ronald Avenue\r\r\nLinbro Park",
+    "Billing Address City": "Linbro Park",
+    "Phone": "011 100 0088",
+    "Email": "nabenem@mascsolutions.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Display Name As": "Masungulo Yamatiko",
+    "Billing Address Line 1": "Masungulo Yamatiko",
+    "Billing Address Line 2": "Masungulo Yamatiko",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Display Name As": "Mr Getsemane",
+    "Billing Address Line 1": "Mr Getsemane",
+    "Billing Address Line 2": "Mr Getsemane",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Mushroom Budds",
+    "First Name": "Miqualle",
+    "Display Name As": "Mushroom Budds",
+    "Billing Address Line 1": "Mushroom Budds\r\r\n111 Monument Avenue\r\r\nLyttelton Manor\r\r\nCenturion\r\nCenturion",
+    "Billing Address Line 2": "Mushroom Budds\r\r\n111 Monument Avenue\r\r\nLyttelton Manor\r\r\nCenturion",
+    "Billing Address City": "Centurion",
+    "Phone": 126641340,
+    "Email": "miqualle@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "POISEC",
+    "First Name": "Vuyo",
+    "Last Name": "Mbatha",
+    "Display Name As": "POISEC",
+    "Billing Address Line 1": "POISEC\r\r\nVuyo Mbatha",
+    "Billing Address Line 2": "POISEC\r\r\nVuyo Mbatha",
+    "Email": "vuyo@poisec.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Quadra Blocks (PTY) Ltd",
+    "First Name": "Chauntelle",
+    "Last Name": "Human",
+    "Display Name As": "Quadra Blocks (PTY) Ltd",
+    "Billing Address Line 1": "Quadra Blocks (PTY) Ltd\r\r\n11 Tarentaal Avenue\r\r\nThree Rivers East\r\r\nVereeniging\r\nVereeniging",
+    "Billing Address Line 2": "Quadra Blocks (PTY) Ltd\r\r\n11 Tarentaal Avenue\r\r\nThree Rivers East\r\r\nVereeniging",
+    "Billing Address City": "Vereeniging",
+    "Phone": "016 454 8358",
+    "Email": "chauntele@quadrablocks.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Rabomba Cleaning Products",
+    "Display Name As": "Rabomba Cleaning Products",
+    "Billing Address Line 1": "Rabomba Cleaning Products\r\r\nShop 8 Wildlife Estate\r\r\nPick N Pay Centre, Hoedspruit\r\nPick N Pay Centre\r\nHoedspruit",
+    "Billing Address Line 2": "Rabomba Cleaning Products\r\r\nShop 8 Wildlife Estate\r\r\nPick N Pay Centre, Hoedspruit",
+    "Billing Address City": "Pick N Pay Centre",
+    "Billing Address Country": "Hoedspruit",
+    "Email": "rabomba@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Rent-A-Property T/A Status Mark",
+    "First Name": "Genna",
+    "Last Name": "Bronkhorst",
+    "Display Name As": "Rent-A-Property T/A Status Mark",
+    "Billing Address Line 1": "Rent-A-Property T/A Status Mark\r\r\nBuilding 5, Suite 1\r\r\nRuimsig Office Estates\r\r\n572 Hole-in-one- Road\r\n572 Hole-in-one- Road",
+    "Billing Address Line 2": "Rent-A-Property T/A Status Mark\r\r\nBuilding 5, Suite 1\r\r\nRuimsig Office Estates\r\r\n572 Hole-in-one- Road",
+    "Billing Address City": "572 Hole-in-one- Road",
+    "Phone": 116680100,
+    "Email": "genna@rentaproperty.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "SAAI Trading",
+    "First Name": "Krish",
+    "Last Name": "Chetty",
+    "Display Name As": "SAAI Trading",
+    "Billing Address Line 1": "SAAI Trading\r\r\n39 JF Kennedy Avenue\r\r\nBonaero Park\r\r\nKempton Park, 1619\r\nKempton Park 1619",
+    "Billing Address Line 2": "SAAI Trading\r\r\n39 JF Kennedy Avenue\r\r\nBonaero Park\r\r\nKempton Park, 1619",
+    "Billing Address City": "Kempton Park",
+    "Billing Address Postal Code": "1619",
+    "Phone": 614731733,
+    "Email": "krish@saaitrading.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Specialised Belting Products Pty Ltd",
+    "First Name": "Clyde",
+    "Last Name": "Lok",
+    "Display Name As": "Specialised Belting Products Pty Ltd",
+    "Billing Address Line 1": "Specialised Belting Products Pty Ltd\r\r\n3 Enkeldoring Street\r\r\nRandparkridge Ext3\r\r\nRandburg\r\nRandburg",
+    "Billing Address Line 2": "Specialised Belting Products Pty Ltd\r\r\n3 Enkeldoring Street\r\r\nRandparkridge Ext3\r\r\nRandburg",
+    "Billing Address City": "Randburg",
+    "Phone": 117934484,
+    "Email": "lok@icon.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Sthembiso Nicolas Vilakazi",
+    "First Name": "Sthembiso",
+    "Last Name": "Vilakazi",
+    "Display Name As": "Sthembiso Nicolas Vilakazi",
+    "Billing Address Line 1": "Sthembiso Nicolas Vilakazi\r\r\nSthembiso Vilakazi",
+    "Billing Address Line 2": "Sthembiso Nicolas Vilakazi\r\r\nSthembiso Vilakazi",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "THAT ENGINEERING PLACE CC T/A SUPERGEL",
+    "Display Name As": "SUPERGEL",
+    "Email": "amanda@supergel.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "TauSadi Mining and Engineering Pty Ltd",
+    "Display Name As": "TauSadi Mining and Engineering Pty Ltd",
+    "Billing Address Line 1": "TauSadi Mining and Engineering Pty Ltd",
+    "Billing Address Line 2": "TauSadi Mining and Engineering Pty Ltd",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Test cusrtomers",
+    "Display Name As": "Test cusrtomers",
+    "Phone": "+10102034300",
+    "Other": "+10102034300",
+    "Email": "test@test.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "TG",
+    "Display Name As": "TG",
+    "Billing Address Line 1": "Patience Hlabangwane\r\r\nKwa-Guqa Advise Office\r\r\nEmail: kwaguqa2022@gmail.com\r\r\nTel: 0695607491\r\nTel: 0695607491",
+    "Billing Address Line 2": "Patience Hlabangwane\r\r\nKwa-Guqa Advise Office\r\r\nEmail: kwaguqa2022@gmail.com\r\r\nTel: 0695607491",
+    "Billing Address City": "Tel:",
+    "Billing Address Postal Code": "0695607491",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "That Engineering Place t/a Supergel",
+    "First Name": "Amanda",
+    "Last Name": "Bates",
+    "Display Name As": "That Engineering Place t/a Supergel",
+    "Billing Address Line 1": "That Engineering Place t/a Supergel\r\r\n35 Rennie Road\r\r\nSundra\r\nSundra",
+    "Billing Address Line 2": "That Engineering Place t/a Supergel\r\r\n35 Rennie Road\r\r\nSundra",
+    "Billing Address City": "Sundra",
+    "Phone": "013 661 1180",
+    "Email": "amanda@supergel.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "The Practice",
+    "First Name": "Elaine",
+    "Display Name As": "The Practice",
+    "Billing Address Line 1": "The Practice\r\r\n57 1st Avenue\r\r\nLinden\r\r\nRandburg\r\nRandburg",
+    "Billing Address Line 2": "The Practice\r\r\n57 1st Avenue\r\r\nLinden\r\r\nRandburg",
+    "Billing Address City": "Randburg",
+    "Phone": 117820393,
+    "Email": "elaine@creativess.co.za",
+    "Terms": "COD",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Therm Guard",
+    "First Name": "Eric",
+    "Display Name As": "Therm Guard",
+    "Billing Address Line 1": "Therm Guard\r\r\n106 Plane road\r\r\nSpartan, Kempton Park\r\r\n1619\r\nSpartan 1619\r\nKempton Park",
+    "Billing Address Line 2": "Therm Guard\r\r\n106 Plane road\r\r\nSpartan, Kempton Park\r\r\n1619",
+    "Billing Address City": "Spartan",
+    "Billing Address Postal Code": "1619",
+    "Billing Address Country": "Kempton Park",
+    "Email": "eric@thermguard.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Thuthukani Advisory & Consulting (Pty) Lt",
+    "Display Name As": "Thuthukani Advisory & Consulting (Pty) Lt",
+    "Billing Address Line 1": "Thuthukani Advisory & Consulting (Pty) Lt\r\r\n92 Koot Road\r\r\nWithok Estate AH\r\r\nBrakpan\r\r\n1541\r\nBrakpan 1541",
+    "Billing Address Line 2": "Thuthukani Advisory & Consulting (Pty) Lt\r\r\n92 Koot Road\r\r\nWithok Estate AH\r\r\nBrakpan\r\r\n1541",
+    "Billing Address City": "Brakpan",
+    "Billing Address Postal Code": "1541",
+    "Shipping Address Line 1": "Thuthukani Advisory & Consulting (Pty) Lt\r\r\n92 Koot Road\r\r\nWithok Estate AH\r\r\nBrakpan\r\r\n1541\r\nBrakpan 1541",
+    "Shipping Address Line 2": "Thuthukani Advisory & Consulting (Pty) Lt\r\r\n92 Koot Road\r\r\nWithok Estate AH\r\r\nBrakpan\r\r\n1541",
+    "Shipping Address City": "Brakpan",
+    "Shipping Address Postal Code": "1541",
+    "Phone": 118250647,
+    "Email": "admin@thuthukisa.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Thuthukisa Institute NPC",
+    "Display Name As": "Thuthukisa Institute NPC",
+    "Email": "admin@thuthukisa.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Tracy",
+    "Display Name As": "Tracy",
+    "Billing Address Line 1": "Tracy",
+    "Billing Address Line 2": "Tracy",
+    "Phone": 798352158,
+    "Email": "tracy@sparksa.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Vuka Africa Consulting",
+    "First Name": "Bokgadi",
+    "Last Name": "Riba",
+    "Display Name As": "Vuka Africa Consulting",
+    "Billing Address Line 1": "Vuka Africa Consulting\r\r\n798 Arcadia Street\r\r\nArcadia, Pretoria 0126\r\nArcadia 0126\r\nPretoria",
+    "Billing Address Line 2": "Vuka Africa Consulting\r\r\n798 Arcadia Street\r\r\nArcadia, Pretoria 0126",
+    "Billing Address City": "Arcadia",
+    "Billing Address Postal Code": "0126",
+    "Billing Address Country": "Pretoria",
+    "Email": "mummyr@vukaafrica.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Display Name As": "Washesha Connections",
+    "Billing Address Line 1": "Washesha Connections",
+    "Billing Address Line 2": "Washesha Connections",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Whoz Who",
+    "First Name": "Paul",
+    "Last Name": "Mahlase",
+    "Display Name As": "Whoz Who",
+    "Billing Address Line 1": "Whoz Who\r\r\nPaul Mahlase",
+    "Billing Address Line 2": "Whoz Who\r\r\nPaul Mahlase",
+    "Email": "paul.mahlase@easybiztech.co.za",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "Company": "Zama Mabuza",
+    "First Name": "Zamakhosi",
+    "Last Name": "Mabuza",
+    "Display Name As": "Zama Mabuza",
+    "Phone": "+27 823925809",
+    "Other": "+27 823925809",
+    "Email": "zcmabuza@gmail.com",
+    "Preferred Delivery Method": "None"
+  },
+  {
+    "First Name": "Zama",
+    "Last Name": "Customer",
+    "Display Name As": "Zama Mabuza Customer",
+    "Email": "zcmabuza@gmail.com",
+    "Preferred Delivery Method": "None"
+  }
+]
