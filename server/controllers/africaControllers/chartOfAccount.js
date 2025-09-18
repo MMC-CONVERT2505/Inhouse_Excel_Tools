@@ -116,17 +116,15 @@ export async function uploadCoa(req, res) {
 }
 
 // ⚙️ Process and convert COA data
+// ⚙️ Process and convert COA data
 export async function processCoa(req, res) {
     try {
         let jsonData = await readExcelToJson(excelFilePath);
-        jsonData = renameColumns(jsonData);
-        // Optionally enforce validation
-        // for (const row of jsonData) {
-        //     if (!row["Account No."]) {
-        //         return res.status(400).send("Account number is mandatory!");
-        //     }
-        // }
 
+        // 1. Rename columns
+        jsonData = renameColumns(jsonData);
+
+        // 2. Map types, detail types, tax rates
         jsonData = jsonData.map(row => {
             const typeValue = mapType(row["Account type"]);
             if (typeValue) row["Account type"] = typeValue;
@@ -140,8 +138,16 @@ export async function processCoa(req, res) {
             return row;
         });
 
+        // 3. Remove unwanted rows (Retained Earnings & Owner's equity)
+        jsonData = jsonData.filter(row => {
+            const accName = row["Account name"]?.trim().toLowerCase();
+            return !(accName === "retained earnings" || accName === "owner's equity" || accName === "member equity");
+        });
+
+        // 4. Keep only allowed columns
         const filteredData = filterColumns(jsonData);
 
+        // 5. Save processed data
         await saveJsonToFile(filteredData, outputJsonPath);
         await writeJsonToExcel(filteredData, modifiedExcelPath);
 

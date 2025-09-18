@@ -3,310 +3,310 @@
     "Account number": 1200,
     "Account name": "Undeposited Funds",
     "Account type": "Cash and cash equivalents",
-    "Detail type": "Cash and cash equivalents/Bankanjay",
+    "Detail type": "Cash and cash equivalents/Bank",
     "Description": "Funds received, but not yet deposited to a bank account"
   },
   {
     "Account name": "7-Day Notice",
     "Account type": "Cash and cash equivalents",
-    "Detail type": "Cash and cash equivalents/Bankanjay"
+    "Detail type": "Cash and cash equivalents/Bank"
   },
   {
     "Account name": "Current Account",
     "Account type": "Cash and cash equivalents",
-    "Detail type": "Cash and cash equivalents/Bankanjay"
+    "Detail type": "Cash and cash equivalents/Bank"
   },
   {
     "Account name": "Petty Cash",
     "Account type": "Cash and cash equivalents",
-    "Detail type": "Cash and cash equivalents/Bankanjay"
+    "Detail type": "Cash and cash equivalents/Bank"
   },
   {
     "Account number": 1100,
     "Account name": "Accounts Receivable",
     "Account type": "Accounts receivable (A/R)",
-    "Detail type": "Accounts receivable (A/R)anjay",
+    "Detail type": "Accounts receivable (A/R)",
     "Description": "Unpaid or unapplied customer invoices and credits"
   },
   {
     "Account number": 1210,
     "Account name": "Stock",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay",
+    "Detail type": "Other current assets",
     "Description": "Costs of stock purchased for resale"
   },
   {
     "Account number": 1310,
     "Account name": "Prepaid Insurance",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay",
+    "Detail type": "Other current assets",
     "Description": "Insurance premiums paid in advance of policy effective dates"
   },
   {
     "Account name": "Acc Receivable - Cr. C/B  to AP",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Clearing JKNV Pre-Paid Refund",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Deferred Tax Ass'd Loss (AUD4)",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Deposits - 9 Mackay Avenue",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Deposits Paid 11 Mackay",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Deposits Paid 18 Mackay",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Pre-Payments",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Pre-Payments:Agent Commissions",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Pre-Payments:General",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Rental Owed, breach of contract",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Staff Loans",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Staff Loans:Senzo",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Staff Loans:Sithembile",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Suspense Account",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Uncategorised Asset",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account name": "Undeposited Funds-1",
     "Account type": "Current assets",
-    "Detail type": "Other current assetsanjay"
+    "Detail type": "Other current assets"
   },
   {
     "Account number": 1500,
     "Account name": "Furniture and Fixtures",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Furniture and equipment with useful life exceeding one year"
   },
   {
     "Account number": 1501,
     "Account name": "Furniture and Fixtures:Cost",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Cost of furniture and fixtures"
   },
   {
     "Account number": 1502,
     "Account name": "Furniture and Fixtures:Accumulated Depreciation",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Depreciation of furniture and fixtures"
   },
   {
     "Account number": 1510,
     "Account name": "Computer Equipment",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Cost of computers"
   },
   {
     "Account number": 1511,
     "Account name": "Computer Equipment:Cost",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Cost of computers"
   },
   {
     "Account number": 1512,
     "Account name": "Computer Equipment:Accumulated Depreciation",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Depreciation of computers"
   },
   {
     "Account number": 1520,
     "Account name": "Office Equipment",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Office equipment including printers, photocopiers"
   },
   {
     "Account number": 1521,
     "Account name": "Office Equipment:Cost",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Office equipment including printers, photocopiers"
   },
   {
     "Account number": 1522,
     "Account name": "Office Equipment:Accumulated Depreciation",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Depreciation on company owned office equipment including photocopiers etc"
   },
   {
     "Account number": 1530,
     "Account name": "Motor Vehicles",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Business cars and trucks, registered in the name of the business"
   },
   {
     "Account number": 1531,
     "Account name": "Motor Vehicles:Cost",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Business cars and trucks, registered in the name of the business"
   },
   {
     "Account number": 1532,
     "Account name": "Motor Vehicles:Accumulated Depreciation",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Depreciation on company cars and trucks, registered in the name of the business"
   },
   {
     "Account number": 1540,
     "Account name": "Custom Software",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Custom and/or industry specific software"
   },
   {
     "Account number": 1560,
     "Account name": "Land",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Land owned by the company"
   },
   {
     "Account number": 1590,
     "Account name": "Leasehold Improvements",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Improvements to leased building space"
   },
   {
     "Account number": 1640,
     "Account name": "Vehicles",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Business automobiles and trucks, registered in the name of the business"
   },
   {
     "Account number": 1700,
     "Account name": "Accumulated Depreciation",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay",
+    "Detail type": "Other fixed assets",
     "Description": "Accumulated depreciation on equipment, buildings and improvements"
   },
   {
     "Account name": "Building",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Building:Accumulated Depreciation",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Building:Cost_11 Mackay",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Building:Cost_18 Mackay",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Building:Cost_9 Mackay",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Equipment",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Equipment:Accumulated Depreciation",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Equipment:Cost",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Solar & Inverter Systems",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Solar & Inverter Systems:Accumulated Depreciation",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account name": "Solar & Inverter Systems:Cost",
     "Account type": "Fixed assets",
-    "Detail type": "Other fixed assetsanjay"
+    "Detail type": "Other fixed assets"
   },
   {
     "Account number": 1870,
     "Account name": "Security Deposits Asset",
     "Account type": "Non-current assets",
-    "Detail type": "Other non-current assetsanjay",
+    "Detail type": "Other non-current assets",
     "Description": "Deposits and other returnable funds held by other entities (Rent, Utilities, etc.)"
   },
   {
     "Account name": "Fair value Adj on Investment",
     "Account type": "Non-current assets",
-    "Detail type": "Other non-current assetsanjay"
+    "Detail type": "Other non-current assets"
   },
   {
     "Account number": 2000,
@@ -319,149 +319,149 @@
     "Account number": 2400,
     "Account name": "Payroll Liabilities",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay",
+    "Detail type": "Other current liabilities",
     "Description": "Employee related payroll liabilities"
   },
   {
     "Account number": 2480,
     "Account name": "Tenant Deposits Held 11 Mackay",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay",
+    "Detail type": "Other current liabilities",
     "Description": "Security deposits from tenants"
   },
   {
     "Account number": 2552,
     "Account name": "VAT Control",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account number": 9000,
     "Account name": "Estimates",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay",
+    "Detail type": "Other current liabilities",
     "Description": "Estimates for jobs or projects. Customer proposals for work to be done, or items to be sold upon cus"
   },
   {
     "Account number": 9020,
     "Account name": "Sales Orders",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay",
+    "Detail type": "Other current liabilities",
     "Description": "Orders from customers to be filled, work to be performed, or items to be shipped"
   },
   {
     "Account number": 9401,
     "Account name": "BACS-Payroll",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay",
+    "Detail type": "Other current liabilities",
     "Description": "BACS-paid employee payroll payment details"
   },
   {
     "Account number": 9402,
     "Account name": "Giro",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay",
+    "Detail type": "Other current liabilities",
     "Description": "Giro-paid employee payroll payment details"
   },
   {
     "Account name": "Accounts Pay - C/B  from AR",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Accounts Payable - AFS Jnls",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Accruals",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Accruals:Accounting / Auditing Fees",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Accruals:General",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Accruals:Std Bank Bond current portion",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Accruals:Std Bank Interest C/F",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Deferred tax FV Adj (AUD3)",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Income in Advance",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Loan Account",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Loan Account:CW Middel",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Loan Account:Jacqui Pearson",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Loan Left Post Productions CC",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Salary Clearance",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Std Bank Loan_Current Portion",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Tenant deposits held 18 Mackay",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Tenant Deposits Held 9 Mackay",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "UIF Clearance",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "VAT Payable",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "VAT Suspense",
     "Account type": "Current liabilities",
-    "Detail type": "Other current liabilitiesanjay"
+    "Detail type": "Other current liabilities"
   },
   {
     "Account name": "Std Bank Loan_LT Liab",
@@ -472,988 +472,983 @@
     "Account number": 3000,
     "Account name": "Share Capital Account",
     "Account type": "Owner's equity",
-    "Detail type": "Owner's Equityanjay",
+    "Detail type": "Owner's Equity",
     "Description": "Opening balances during setup post to this account. The balance of this account should be zero after"
   },
   {
     "Account number": 3070,
     "Account name": "Members Drawings",
     "Account type": "Owner's equity",
-    "Detail type": "Owner's Equityanjay",
+    "Detail type": "Owner's Equity",
     "Description": "Monies taken out of the business by the member"
-  },
-  {
-    "Account name": "Retained Earnings",
-    "Account type": "Owner's equity",
-    "Detail type": "Owner's Equityanjay"
   },
   {
     "Account number": 4200,
     "Account name": "Income 11 Mackay:Rental Income",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay",
+    "Detail type": "Revenue - General",
     "Description": "Letting Income"
   },
   {
     "Account number": 4240,
     "Account name": "Commission Income",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay",
+    "Detail type": "Revenue - General",
     "Description": "Commissions income on sales or referrals"
   },
   {
     "Account number": 4241,
     "Account name": "Property Management Income",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay",
+    "Detail type": "Revenue - General",
     "Description": "Property Management Fees"
   },
   {
     "Account number": 4300,
     "Account name": "Service Charges",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay",
+    "Detail type": "Revenue - General",
     "Description": "Service Charges"
   },
   {
     "Account name": "Billable Expense Income",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Arthole",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Audiomilitia (Pty) Ltd",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Blue Motion",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Capitol Collective",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Cash Sales",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Cleaning 11 Makcay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Dondoo Studios (Pty) Ltd",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Dopezuluboi Productions",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Dusk Too Dawn",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Effluent",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Egg Films",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Electricity",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Electricity 11 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Events / Film Shoots",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Exposure",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Fallen Heroes",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Forge Ignite Media and Entertai",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:General Post",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Headspace Neuromarketing",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:House on Fire Post",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Internet rent from Dondoo",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:KS Dube t/a Colours Hair & Beau",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Left Post Productions CC",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Level 180",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Luna Films",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Matthew Stonier",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:MOCAP Rental",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Next Post",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Operating Costs",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Ops Costs",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Oxyg3n Media (Pty) Ltd",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Parking",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Radu Business Enterprise",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Rates",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Rates Income",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Red Bull",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Refuse",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Robot TV",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:S'Curl and Cutt",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Sam ML Dikgale",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Savage Design (Pty) Ltd",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Security",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Sphere Collective",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:The Rudeboy Collective",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:They Shoot Films",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Torque (Y&V Agency)",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Transvaal (Pty) Ltd",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Unit 1B-3 Part Time Rentals",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Voice Overs & Stuff",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Waste Management 11 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Water",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Water 11 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Wishbones CC",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Xantium Trading (Pty) Ltd",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Xantium Trading (Pty) Ltd:Church",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 11 Mackay:Xantium Trading (Pty) Ltd:Northmotion Ins of Development",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 18 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 18 Mackay:Cleaning 18 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 18 Mackay:Electricity 18 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 18 Mackay:Recovered Expenses",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 18 Mackay:Rent House A",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 18 Mackay:Rent House B",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 18 Mackay:Waste Management 18 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 18 Mackay:Water 18 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 9 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 9 Mackay:Electricity 9 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 9 Mackay:Insurance",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 9 Mackay:Patisserie De Paris",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 9 Mackay:Rates 9 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 9 Mackay:Refuse 9 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 9 Mackay:Sundry 9 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income 9 Mackay:Water 9 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Income Recovered Expenses",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Insurance Claims",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Pre Paid Electricity - Income",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Pre Paid Electricity - Income:11 Mackay Prepaid Purchased",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Pre Paid Electricity - Income:18 Mackay Pre Paid Purchased",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "S'Curl and Cutt",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Sales",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "ServiceIncome",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Services",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Unapplied Cash Payment Income",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Uncategorised Income",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account name": "Utilities Recovered 11 Mackay",
     "Account type": "Income",
-    "Detail type": "Revenue - Generalanjay"
+    "Detail type": "Revenue - General"
   },
   {
     "Account number": 5000,
     "Account name": "Cost of Goods Sold",
     "Account type": "Cost of sales",
-    "Detail type": "Supplies and materials - COSanjay",
+    "Detail type": "Supplies and materials - COS",
     "Description": "Costs of items purchased and then sold to customers"
   },
   {
     "Account number": 6000,
     "Account name": "Advertising and Promotion",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Advertising, marketing, graphic design, and other promotional expenses"
   },
   {
     "Account number": 6020,
     "Account name": "Vehicle Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Fuel, oil, repairs, and other automobile maintenance for business autos"
   },
   {
     "Account number": 6200,
     "Account name": "Staff Training",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Seminars, educational expenses and employee development, not including travel"
   },
   {
     "Account number": 6240,
     "Account name": "Depreciation Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Depreciation on equipment, buildings and improvements"
   },
   {
     "Account number": 6250,
     "Account name": "Dues and Subscriptions",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Subscriptions and membership dues for civic, service, professional, trade organisations"
   },
   {
     "Account number": 6260,
     "Account name": "Equipment Rental",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Rent paid for rented equipment used for business"
   },
   {
     "Account number": 6330,
     "Account name": "Insurance Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Insurance expenses"
   },
   {
     "Account number": 6340,
     "Account name": "Interest Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Interest payments on business loans, credit card balances, or other business debt"
   },
   {
     "Account number": 6370,
     "Account name": "Landscaping and Groundskeeping",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Landscape maintenance, lawn mowing, gardening expenses"
   },
   {
     "Account number": 6470,
     "Account name": "Miscellaneous Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Miscellaneous expenses not categorized elsewhere. Use memo field to describe business purpose"
   },
   {
     "Account number": 6490,
     "Account name": "Office Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Office Expense"
   },
   {
     "Account number": 6600,
     "Account name": "Payroll Expenses",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Employee related payroll expenses"
   },
   {
     "Account number": 6650,
     "Account name": "Postage and Delivery",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Postage, courier, and pickup and delivery services"
   },
   {
     "Account number": 6670,
     "Account name": "Professional Fees",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Payments to accounting professionals and attorneys for accounting or legal services"
   },
   {
     "Account number": 6710,
     "Account name": "Rent and Rates",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Rent and rates paid in the business"
   },
   {
     "Account number": 6720,
     "Account name": "Repairs and Maint  - 11 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Incidental repairs and maintenance of business assets that do not add to the value or appreciably pr"
   },
   {
     "Account number": 6800,
     "Account name": "Taxes",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Corporation Tax Charge"
   },
   {
     "Account number": 6810,
     "Account name": "Telephone",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Telephone and long distance charges, faxing, and other fees Not equipment purchases"
   },
   {
     "Account number": 6840,
     "Account name": "Travelling",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Business-related travel expenses including airline tickets, taxi fares, hotel and other travel expen"
   },
   {
     "Account number": 6860,
     "Account name": "Utilities",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Water, gas and electricity expenses"
   },
   {
     "Account number": 6980,
     "Account name": "Uncategorized Expenses",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay",
+    "Detail type": "Office/General Administrative Expenses",
     "Description": "Expenses not categorized elsewhere"
   },
   {
     "Account name": "Accounting / Auditing Fees",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Administration Fee",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Assets < R5 000",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Assets < R5 000:11 Mackay Assets < R5 000",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Assets < R5 000:18 Mackay Assets < R5 000",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Bad Debt",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Bank Charges",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Casual Wages",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "City of JHB Surcharge",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "City of JHB Surcharge:Surcharge 11 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "City of JHB Surcharge:Surcharge 18 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "City of JHB Surcharge:Surcharge 9 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Cleaning",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Cleaning:Cleaning 11 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Cleaning:Cleaning 18 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Commission Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Commission Expense:Commissions Rental Agents",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Commission Expense:JKNV commission 11 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Commission Expense:JKNV commission 18 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Consulting",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Deferred Tax (AUD)",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Deferred Tax Ass'd Loss (AUD2)",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Deferred Taxation -Current year",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Electricity",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Electricity:Electricity 11 Mackay Exp",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Electricity:Electricity 18 Mackay Exp",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Electricity:Electricity 9 Mackay Exp",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Entertainment",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Excess paid",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Fair value Adjustment",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Gifts",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Interest Exp Standard Bank Loan",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Legal Fees",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Marketing",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Penalties",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Printing & Stationery",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "R&T 9 Makcay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Rates & Taxes",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Rates & Taxes:R&T 11 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Rates & Taxes:R&T 18 Mackay Ave",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Rates & Taxes:R&T 9 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Refreshments",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Repairs & Maint - 18 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Repairs & Maint - 9 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Salaries",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Salaries:Mumsie",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Salaries:Tanya",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Salaries:Zenzozenkosi",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "SARS Penalties & Interest",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Security",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "ServiceExpense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Tenant Installations",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Tenant Installations:Imaginary Media",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Travelling:Parking & Toll Fees",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Travelling:Uber / Gautrain",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "UIF Co Contribution",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Unapplied Cash Bill Payment Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Uncategorised Expense",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Uniforms",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Waste Management",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Waste Management:Waste 11 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Waste Management:Waste 18 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Waste Management:Waste 9 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Water & Sanitation",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Water & Sanitation:Water & San 11 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Water & Sanitation:Water & San 18 Mackay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Water & Sanitation:Water & San 9 Makcay",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Work Permit",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account name": "Wormans Compensation",
     "Account type": "Expenses",
-    "Detail type": "Office/General Administrative Expensesanjay"
+    "Detail type": "Office/General Administrative Expenses"
   },
   {
     "Account number": 7020,
     "Account name": "Interest Income",
     "Account type": "Other income",
-    "Detail type": "Other Miscellaneous Incomeanjay",
+    "Detail type": "Other Miscellaneous Income",
     "Description": "Interest earned on bank accounts and loans"
   },
   {
     "Account name": "Reconciliation Discrepancies",
     "Account type": "Other expense",
-    "Detail type": "Other Expenseanjay"
+    "Detail type": "Other Expense"
   }
 ]
