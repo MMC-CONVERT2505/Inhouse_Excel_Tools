@@ -2,12 +2,10 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 
 const types = [
-  { name: "QBO To QBO", image: "../../public/QBOQBO.png" },
-  { name: "Sage One To QBO", image: "../../public/SAGEQBO.png" },
-  { name: "Reckon Desktop To Xero", image: "../../public/RECKONXERO.png" },
-  { name: "Xero To Xero", image: "../../public/XEROXERO.png" },
-  // { name: "Wave To QBO", image: "../../public/WAVEQBO.png" },
-  // { name: "Wave To Xero", image: "../../public/WAVEXERO.png "},
+  { name: "QBO To QBO", supportedCountry: "[ Australia, USA, Africa ]", image: "../../public/QBOQBO.png" },
+  { name: "Sage One To QBO", supportedCountry: "[ Australia ]", image: "../../public/SAGEQBO.png" },
+  { name: "Reckon Desktop To Xero", supportedCountry: "[ Australia ]", image: "../../public/RECKONXERO.png" },
+  { name: "Xero To Xero", supportedCountry: "[ Australia ]", image: "../../public/XEROXERO.png" },
 ];
 
 export default function SoftwareTypeModal({ isOpen, onSelect, onClose }) {
@@ -44,7 +42,7 @@ export default function SoftwareTypeModal({ isOpen, onSelect, onClose }) {
                   Please Select Softwares For Conversion...
                 </Dialog.Title>
 
-                <div className="max-h-[70vh] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-gray-700 rounded-md">
+                <div className="max-h-[90vh] overflow-y-auto pr-1 scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-gray-700 rounded-md">
                   <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6">
                     {types.map((type) => (
                       <div
@@ -59,6 +57,9 @@ export default function SoftwareTypeModal({ isOpen, onSelect, onClose }) {
                         />
                         <div className="bg-gradient-to-r from-[#0b1a3b] to-[#112240] text-center font-semibold text-white">
                           {type.name}
+                        </div>
+                        <div className="bg-gradient-to-r from-[#0b1a3b] to-[#112240] text-center text-white">
+                          {type.supportedCountry}
                         </div>
                       </div>
                     ))}
