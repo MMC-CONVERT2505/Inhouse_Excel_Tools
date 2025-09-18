@@ -2,7 +2,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 
 const types = [
-  { name: "QBO To QBO", supportedCountry: "[ Australia, USA, Africa ]", image: "../../public/QBOQBO.png" },
+  { name: "QBO To QBO", supportedCountry: "[ Australia, USA ]", image: "../../public/QBOQBO.png" },
   { name: "Sage One To QBO", supportedCountry: "[ Australia ]", image: "../../public/SAGEQBO.png" },
   { name: "Reckon Desktop To Xero", supportedCountry: "[ Australia ]", image: "../../public/RECKONXERO.png" },
   { name: "Xero To Xero", supportedCountry: "[ Australia ]", image: "../../public/XEROXERO.png" },
