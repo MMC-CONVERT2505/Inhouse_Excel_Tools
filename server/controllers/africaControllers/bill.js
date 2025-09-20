@@ -6,6 +6,8 @@ import { getPaths } from "../../utils/filePaths.js";
 const type = "bill";
 const { excelFilePath, outputJsonPath, modifiedExcelPath } = getPaths(type);
 
+
+
 const changeColumnName = {
     "No.": "BillNo",
     "Account": "Account",
