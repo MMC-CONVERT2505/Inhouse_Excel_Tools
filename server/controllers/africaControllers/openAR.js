@@ -99,7 +99,7 @@ export async function uploadOpenAR(req, res) {
 
     try {
         await move(req.file.path, excelFilePath, { overwrite: true });
-        console.log("✅Australia Open-AR file saved at:", excelFilePath);
+        console.log("✅Africa Open-AR file saved at:", excelFilePath);
         res.send({ message: "File uploaded and saved successfully" });
     } catch (err) {
         console.error("❌ File move error:", err.message);
@@ -155,7 +155,7 @@ export async function processOpenAR(req, res) {
 
         await workbook.xlsx.writeFile(modifiedExcelPath);
 
-        console.log("✅Australia Open-AR Excel processed with 2 sheets.");
+        console.log("✅Africa Open-AR Excel processed with 2 sheets.");
         res.send("Excel processed and split into Invoices and Adjustment Notes.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);
@@ -210,7 +210,7 @@ export async function processMultiCurrencyOpenAR(req, res) {
 
         await workbook.xlsx.writeFile(modifiedExcelPath);
 
-        console.log("✅Australia MultiCurrency Open-AR Excel processed with 2 sheets.");
+        console.log("✅Africa MultiCurrency Open-AR Excel processed with 2 sheets.");
         res.send("Excel processed and split into Invoices and Adjustment Notes.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);
