@@ -10,7 +10,7 @@ const changeColumnName = {
     "TxnID": "TxnID",
     "RefNumber": "RefNumber",
     "AccountRefFullName": "Account",
-    "EntityRefFullName": "Payee",
+    "PayeeEntityRefFullName": "Payee",
     "TxnDate": "Payment Date",
     "Privatenote": "Memo",
     "GlobalTaxCalculation": "Global Tax Calculation",
@@ -141,7 +141,7 @@ export async function uploadCreditCardCharge(req, res) {
     if (!req.file) return res.status(400).send("No file uploaded");
     try {
         await move(req.file.path, excelFilePath, { overwrite: true });
-        console.log("✅Australia Credit Card Charge (Expense) file saved at:", excelFilePath);
+        console.log("✅ Africa Credit Card Charge (Expense) file saved at:", excelFilePath);
         res.send({ message: "File uploaded and saved successfully" });
     } catch (err) {
         console.error("❌ File move error:", err.message);
@@ -164,7 +164,7 @@ export async function processCreditCardCharge(req, res) {
         const dateFields = ["Payment Date"]
         await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
-        console.log("✅Australia Credit Card Charge (Expense) Excel processed.");
+        console.log("✅ Africa Credit Card Charge (Expense) Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);
@@ -189,7 +189,7 @@ export async function processMultiCurrencyCreditCardCharge(req, res) {
         const dateFields = ["Payment Date"]
         await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
-        console.log("✅Australia MultiCurrency Credit Card Charge (Expense) Excel processed.");
+        console.log("✅ Africa MultiCurrency Credit Card Charge (Expense) Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);

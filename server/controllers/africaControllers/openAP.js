@@ -134,7 +134,7 @@ export async function uploadOpenAP(req, res) {
 
     try {
         await move(req.file.path, excelFilePath, { overwrite: true });
-        console.log("✅Australia Open-AP file saved at:", excelFilePath);
+        console.log("✅Africa Open-AP file saved at:", excelFilePath);
         res.send({ message: "File uploaded and saved successfully" });
     } catch (err) {
         console.error("❌ File move error:", err.message);
@@ -196,7 +196,7 @@ export async function processOpenAP(req, res) {
 
         await workbook.xlsx.writeFile(modifiedExcelPath);
 
-        console.log("✅Australia Open-AP Excel processed into 2 sheets.");
+        console.log("✅Africa Open-AP Excel processed into 2 sheets.");
         res.send("Excel processed into Bills and Bill Credits.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);
@@ -258,7 +258,7 @@ export async function processMultiCurrencyOpenAP(req, res) {
 
         await workbook.xlsx.writeFile(modifiedExcelPath);
 
-        console.log("✅Australia MultiCurrency Open-AP Excel processed into 2 sheets.");
+        console.log("✅Africa MultiCurrency Open-AP Excel processed into 2 sheets.");
         res.send("Excel processed into Bills and Bill Credits.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);

@@ -131,7 +131,7 @@ export async function uploadDeposit(req, res) {
     if (!req.file) return res.status(400).send("No file uploaded");
     try {
         await move(req.file.path, excelFilePath, { overwrite: true });
-        console.log("✅Australia Deposit file saved at:", excelFilePath);
+        console.log("✅ Africa Deposit file saved at:", excelFilePath);
         res.send({ message: "File uploaded and saved successfully" });
     } catch (err) {
         console.error("❌ File move error:", err.message);
@@ -154,7 +154,7 @@ export async function processDeposit(req, res) {
         const dateFields = ["Date"]
         await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
-        console.log("✅Australia Deposit Excel processed.");
+        console.log("✅ Africa Deposit Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);
@@ -182,7 +182,7 @@ export async function processMultiCurrencyDeposit(req, res) {
         const dateFields = ["Date"]
         await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
-        console.log("✅Australia MultiCurrency Deposit Excel processed.");
+        console.log("✅ Africa MultiCurrency Deposit Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);

@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "Cheque no": "1843_",
+    "Bank Account": "FNB Cheque",
+    "Payee": "ACTSYS Cable & Wireless Solutions",
+    "Payment Date": 44715,
+    "Memo": "FNB OB 000000917 ACTSYS",
+    "Global Tax Calculation": "TaxExcluded",
+    "Expense Account": "Accounts Payable (A/P)",
+    "Expense Description": "FNB OB 000000917 ACTSYS",
+    "Expense Line Amount": 8705.8,
+    "Expense Tax Code": "Out of Scope",
+    "Expense Account Tax Amount": 0,
+    "Expense Class": "",
+    "Currency Code": "ZAR",
+    "Exchange Rate": 0,
+    "Expense Customer": ""
+  }
+]
