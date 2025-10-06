@@ -201,10 +201,9 @@ export async function processInvoice(req, res) {
 
         await saveJsonToFile(jsonData, outputJsonPath);
 
-        const numberFields = ["Product/Service Amount", "Product/Service Rate", "Product/Service Tax Amount"]; // 🟰 Add this
-
-        await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields); // 🟰 Pass numberFields
-
+        const numberFields = ["Product/Service Amount", "Product/Service Rate", "Product/Service Tax Amount"];
+        const dateFields = ["Invoice Date", "Due Date", "Service Date"]
+        await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
         console.log("✅Africa Invoice Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
     } catch (error) {
@@ -227,9 +226,9 @@ export async function processMultiCurrencyInvoice(req, res) {
 
         await saveJsonToFile(jsonData, outputJsonPath);
 
-        const numberFields = ["Product/Service Amount", "Product/Service Rate", "Product/Service Tax Amount"]; // 🟰 Add this
-
-        await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields); // 🟰 Pass numberFields
+        const numberFields = ["Product/Service Amount", "Product/Service Rate", "Product/Service Tax Amount"];
+        const dateFields = ["Invoice Date", "Due Date", "Service Date"]
+        await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
         console.log("✅Africa Invoice Multi Currency Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");

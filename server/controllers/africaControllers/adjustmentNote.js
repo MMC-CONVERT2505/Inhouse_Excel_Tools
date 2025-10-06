@@ -186,7 +186,8 @@ export async function processAdjustmentNote(req, res) {
 
         await saveJsonToFile(jsonData, outputJsonPath);
         const numberFields = ["Product/Service Amount", "Product/Service Rate", "Product/Service Tax Amount"];
-        await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields);
+        const dateFields = ["Adjustment Note Date", "Service Date"]
+        await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
         console.log("✅Africa Adjustment Note Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
@@ -211,7 +212,8 @@ export async function processMultiCurrencyAdjustment(req, res) {
 
         await saveJsonToFile(jsonData, outputJsonPath);
         const numberFields = ["Product/Service Amount", "Product/Service Rate", "Product/Service Tax Amount"];
-        await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields);
+        const dateFields = ["Adjustment Note Date", "Service Date"]
+        await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
         console.log("✅Africa MultiCurrency Adjustment Note Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
