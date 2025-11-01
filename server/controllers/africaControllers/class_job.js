@@ -36,7 +36,7 @@ export async function uploadClass(req, res) {
 
     try {
         await move(req.file.path, excelFilePath, { overwrite: true });
-        console.log("✅Australia Class file saved at:", excelFilePath);
+        console.log("Africa Class file saved at:", excelFilePath);
         res.send({ message: "File uploaded and saved successfully" });
     } catch (err) {
         console.error("❌ File move error:", err.message);
@@ -53,7 +53,7 @@ export async function processClass(req, res) {
         await saveJsonToFile(filteredData, outputJsonPath);
         await writeJsonToExcel(filteredData, modifiedExcelPath);
 
-        console.log("✅Australia Class Excel processed.");
+        console.log("Africa Class Excel processed.");
         res.send("Excel processed and saved with selected columns and valid Column Name.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);
