@@ -1,5 +1,5 @@
 import { move, pathExists } from "fs-extra";
-import { readExcelToJson } from "../../utils/excelReader.js";
+import {readExcelToJson} from "../../utils/excelReader.js";
 import { writeJsonToExcel, saveJsonToFile } from "../../utils/excelWriter.js";
 import { getPaths } from "../../utils/filePaths.js";
 
@@ -12,7 +12,7 @@ const changeColumnName = {
     "TxnDate": "Payment Date",
     "PrivateNote": "Memo",
     "VendorRefFullName": "Vendor",
-    "CreditCardPaymentCCAccountRefFullName": "Bank or CC Account",
+    "CheckPaymentBankAccountRefFullName": "Bank or CC Account",
     "BillPaymentLineAmount": "Amount",
     "BillPaymentAppliedToTxnRefNumber": "Bill No",
     "CurrencyRefListID": "Currency Code",
@@ -81,7 +81,7 @@ export async function uploadBillPaymentCreditCard(req, res) {
     if (!req.file) return res.status(400).send("No file uploaded");
     try {
         await move(req.file.path, excelFilePath, { overwrite: true });
-        console.log("✅Australia Bill Payment Credit Card file saved at:", excelFilePath);
+        console.log("✅ Africa Bill Payment Credit Card file saved at:", excelFilePath);
         res.send({ message: "File uploaded and saved successfully" });
     } catch (err) {
         console.error("❌ File move error:", err.message);
@@ -103,7 +103,7 @@ export async function processBillPaymentCreditCard(req, res) {
         const dateFields = ["Payment Date"]
         await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
-        console.log("✅Australia Bill Payment Credit Card Excel processed.");
+        console.log("✅ Africa Bill Payment Credit Card Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);
@@ -116,7 +116,7 @@ export async function downloadBillPaymentCreditCard(req, res) {
     try {
         const exists = await pathExists(modifiedExcelPath);
         if (exists) {
-            res.download(modifiedExcelPath, "modifiedBillPaymentCreditCard.xlsx", (err) => {
+            res.download(modifiedExcelPath, "modifiedBillPayment.xlsx", (err) => {
                 if (err) console.error("❌ Download error:", err.message);
                 else console.log("✅ Excel file downloaded.");
             });

@@ -83,7 +83,7 @@ export async function uploadInvoicePayment(req, res) {
     if (!req.file) return res.status(400).send("No file uploaded");
     try {
         await move(req.file.path, excelFilePath, { overwrite: true });
-        console.log("✅Australia Invoice Payment file saved at:", excelFilePath);
+        console.log("Africa Invoice Payment file saved at:", excelFilePath);
         res.send({ message: "File uploaded and saved successfully" });
     } catch (err) {
         console.error("❌ File move error:", err.message);
@@ -105,7 +105,7 @@ export async function processInvoicePayment(req, res) {
         const dateFields = ["Payment Date"]
         await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
-        console.log("✅Australia Invoice Payment Excel processed.");
+        console.log("Africa Invoice Payment Excel processed.");
         res.send("Excel processed successfully with all business rules applied.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);

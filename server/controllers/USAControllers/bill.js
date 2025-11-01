@@ -97,7 +97,7 @@ function processData(data) {
 
         const debit = parseFloat(row["Debit"] || 0);
         const credit = parseFloat(row["Credit"] || 0);
-        row["Product/Service Amount"] = (debit - credit).toFixed(4);
+        row["Line Amount"] = (debit - credit).toFixed(4);
 
         const amount = parseFloat(row["Line Amount"]) || 0;
         const quantity = parseFloat(row["Quantity"]) || 1;

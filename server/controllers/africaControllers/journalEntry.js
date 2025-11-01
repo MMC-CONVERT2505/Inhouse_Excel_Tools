@@ -60,7 +60,7 @@ export async function uploadJournalEntry(req, res) {
     if (!req.file) return res.status(400).send("No file uploaded");
     try {
         await move(req.file.path, excelFilePath, { overwrite: true });
-        console.log("✅ Journal Entry file saved at:", excelFilePath);
+        console.log("✅Africa Journal Entry file saved at:", excelFilePath);
         res.send({ message: "File uploaded and saved successfully" });
     } catch (err) {
         console.error("❌ File move error:", err.message);
@@ -156,7 +156,7 @@ export async function processJournalEntry(req, res) {
         // Write final Excel file
         XLSX.writeFile(workbook, modifiedExcelPath);
 
-        console.log("✅ Journal Entry Excel processed with multiple sheets.");
+        console.log("✅Africa Journal Entry Excel processed with multiple sheets.");
         res.send("Excel processed successfully with all business rules applied.");
     } catch (error) {
         console.error("❌ Error processing Excel:", error.message);

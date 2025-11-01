@@ -19,6 +19,12 @@ import { downloadJournal, processJournal, uploadJournal } from "../controllers/a
 import { downloadCreditCardCharge, processCreditCardCharge, uploadCreditCardCharge } from "../controllers/africaControllers/creditCardCharge.js";
 import { downloadTransfer, processTransfer, uploadTransfer } from "../controllers/africaControllers/transfer.js";
 import { downloadBillPayment, processBillPayment, uploadBillPayment } from "../controllers/africaControllers/billPayment.js";
+import { downloadBillPaymentCreditCard, processBillPaymentCreditCard, uploadBillPaymentCreditCard } from "../controllers/africaControllers/billpaymentcreditcard.js";
+import { downloadInvoicePayment, processInvoicePayment, uploadInvoicePayment } from "../controllers/africaControllers/invoicePayment.js";
+import { downloadOpeningBalance, processOpeningBalance, uploadOpeningBalance } from "../controllers/africaControllers/openingbalance.js";
+import { downloadJournalEntry, processJournalEntry, uploadJournalEntry } from "../controllers/africaControllers/journalEntry.js";
+import { downloadEstimates, processEstimates, uploadEstimates } from "../controllers/africaControllers/estimates.js";
+import { downloadPurchaseOrder, processPurchaseOrder, uploadPurchaseOrder } from "../controllers/africaControllers/purchaseOrder.js";
 // Utility to wrap async route handlers and catch errors
 const asyncHandler = (fn) => (req, res, next) =>
   Promise.resolve(fn(req, res, next)).catch(next);
@@ -40,6 +46,12 @@ router.post("/upload-journal", upload.single("file"), asyncHandler(uploadJournal
 router.post("/upload-creditcardcharge", upload.single("file"), asyncHandler(uploadCreditCardCharge));
 router.post("/upload-transfer", upload.single("file"), asyncHandler(uploadTransfer));
 router.post("/upload-billpayment", upload.single("file"), asyncHandler(uploadBillPayment));
+router.post("/upload-billpaymentcreditcard", upload.single("file"), asyncHandler(uploadBillPaymentCreditCard));
+router.post("/upload-invoicepayment", upload.single("file"), asyncHandler(uploadInvoicePayment));
+router.post("/upload-openingbalance", upload.single("file"), asyncHandler(uploadOpeningBalance));
+router.post("/upload-journalentry", upload.single("file"), asyncHandler(uploadJournalEntry));
+router.post("/upload-estimates", upload.single("file"), asyncHandler(uploadEstimates));
+router.post("/upload-purchaseorder", upload.single("file"), asyncHandler(uploadPurchaseOrder));
 
 
 
@@ -60,6 +72,12 @@ router.post("/process-journal", asyncHandler(processJournal));
 router.post("/process-creditcardcharge", asyncHandler(processCreditCardCharge));
 router.post("/process-transfer", asyncHandler(processTransfer));
 router.post("/process-billpayment", asyncHandler(processBillPayment));
+router.post("/process-billpaymentcreditcard", asyncHandler(processBillPaymentCreditCard));
+router.post("/process-invoicepayment", asyncHandler(processInvoicePayment));
+router.post("/process-openingbalance", asyncHandler(processOpeningBalance));
+router.post("/process-journalentry", asyncHandler(processJournalEntry));
+router.post("/process-estimates", asyncHandler(processEstimates));
+router.post("/process-purchaseorder", asyncHandler(processPurchaseOrder));
 
 // Download routes
 router.get("/download-coa", asyncHandler(downloadCoa));
@@ -78,5 +96,11 @@ router.get("/download-journal", asyncHandler(downloadJournal));
 router.get("/download-creditcardcharge", asyncHandler(downloadCreditCardCharge));
 router.get("/download-transfer", asyncHandler(downloadTransfer));
 router.get("/download-billpayment", asyncHandler(downloadBillPayment));
+router.get("/download-billpaymentcreditcard", asyncHandler(downloadBillPaymentCreditCard));
+router.get("/download-invoicepayment", asyncHandler(downloadInvoicePayment));
+router.get("/download-openingbalance", asyncHandler(downloadOpeningBalance));
+router.get("/download-journalentry", asyncHandler(downloadJournalEntry));
+router.get("/download-estimates", asyncHandler(downloadEstimates));
+router.get("/download-purchaseorder", asyncHandler(downloadPurchaseOrder));
 
 export default router;

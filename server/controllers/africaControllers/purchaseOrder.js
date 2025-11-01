@@ -138,7 +138,7 @@ export async function uploadPurchaseOrder(req, res) {
         if (!req.file) return res.status(400).send("No file uploaded");
         try {
                 await move(req.file.path, excelFilePath, { overwrite: true });
-                console.log("Australia Purchase Order file saved at:", excelFilePath);
+                console.log("Africa Purchase Order file saved at:", excelFilePath);
                 res.send({ message: "File uploaded and saved successfully" });
         } catch (err) {
                 console.error("❌ File move error:", err.message);
@@ -162,7 +162,7 @@ export async function processPurchaseOrder(req, res) {
 
                 await writeJsonToExcel(jsonData, modifiedExcelPath, numberFields, dateFields);
 
-                console.log("✅Australia Purchase Order Excel processed.");
+                console.log("Africa Purchase Order Excel processed.");
                 res.send("Excel processed successfully with all business rules applied.");
         } catch (error) {
                 console.error("❌ Error processing Excel:", error.message);
