@@ -5,7 +5,7 @@ import xlsx from 'xlsx';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 
-const { utils, writeFile, readFile } = xlsx;
+const { utils, writeFile, readFile, SSF } = xlsx; // ✅ SSF added
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -18,16 +18,73 @@ function cleanValue(value) {
   return str === '*' ? '' : str;
 }
 
-// ✅ Format to MM/DD/YYYY
-function formatDate(value) {
-  if (typeof value === 'number') {
-    const utcDays = value - 25569;
-    const utcValue = utcDays * 86400;
-    const date = new Date(utcValue * 1000);
-    return date.toLocaleDateString('en-US');
+// ✅ Format to dd/mm/yyyy (robust: Excel serials, numeric strings, ISO, dd-mm-yyyy)
+function formatDate(v) {
+  try {
+    if (v === undefined || v === null || v === '') return '';
+
+    // Excel serial (number)
+    if (typeof v === 'number') {
+      const d = SSF.parse_date_code(v);
+      if (!d) return '';
+      const dd = String(d.d || 1).padStart(2, '0');
+      const mm = String(d.m || 1).padStart(2, '0');
+      const yyyy = d.y || new Date().getFullYear();
+      return `${dd}/${mm}/${yyyy}`;
+    }
+
+    // Strings
+    if (typeof v === 'string') {
+      const s = v.trim();
+      if (!s) return '';
+
+      // numeric string → treat as Excel serial
+      if (/^\d+(\.\d+)?$/.test(s)) {
+        const num = Number(s);
+        const d = SSF.parse_date_code(num);
+        if (d) {
+          const dd = String(d.d || 1).padStart(2, '0');
+          const mm = String(d.m || 1).padStart(2, '0');
+          const yyyy = d.y || new Date().getFullYear();
+          return `${dd}/${mm}/${yyyy}`;
+        }
+      }
+
+      // dd/mm/yyyy or dd-mm-yyyy
+      const m1 = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
+      if (m1) {
+        const ddn = parseInt(m1[1], 10);
+        const mmn = parseInt(m1[2], 10);
+        const yyyy = m1[3].length === 2 ? 2000 + parseInt(m1[3], 10) : parseInt(m1[3], 10);
+        const d = new Date(yyyy, mmn - 1, ddn);
+        if (!isNaN(d)) {
+          const dd = String(d.getDate()).padStart(2, '0');
+          const mm = String(d.getMonth() + 1).padStart(2, '0');
+          return `${dd}/${mm}/${yyyy}`;
+        }
+      }
+
+      // ISO-like strings
+      const iso = new Date(s);
+      if (!isNaN(iso)) {
+        const dd = String(iso.getDate()).padStart(2, '0');
+        const mm = String(iso.getMonth() + 1).padStart(2, '0');
+        const yyyy = iso.getFullYear();
+        return `${dd}/${mm}/${yyyy}`;
+      }
+      return '';
+    }
+
+    // Date object fallback
+    const d = new Date(v);
+    if (isNaN(d)) return '';
+    const dd = String(d.getDate()).padStart(2, '0');
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const yyyy = d.getFullYear();
+    return `${dd}/${mm}/${yyyy}`;
+  } catch {
+    return '';
   }
-  const date = new Date(value);
-  return isNaN(date.getTime()) ? '' : date.toLocaleDateString('en-US');
 }
 
 // ✅ Upload folder
@@ -92,8 +149,8 @@ const convertAR = () => {
     const docNumber = cleanValue(row['Line_DocumentNumber']);
     const customer = cleanValue(row['Customer']);
     const comment = cleanValue(row['Line_Comment']);
-    const lineDate = formatDate(row['Line_Date']);
-    const dueDate = formatDate(row['Line_DueDate']);
+    const lineDate = formatDate(row['Line_Date']);     // ✅ dd/mm/yyyy
+    const dueDate = formatDate(row['Line_DueDate']);   // ✅ dd/mm/yyyy
 
     const common = {
       'Customer': customer,
@@ -119,7 +176,7 @@ const convertAR = () => {
       });
       classified = true;
     } else if ([3, 4, 9].includes(docType)) {
-      // ✅ Fix: Only treat as Credit Memo if amount is negative
+      // Treat as Credit Memo only if amount negative
       if (amount < 0) {
         creditMemoRows.push({
           'Adjustment Note No': docNumber,

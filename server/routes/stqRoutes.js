@@ -114,6 +114,14 @@ import {
   downloadVendorCredit,
   upload as vendorCreditUpload
 } from '../controllers/sageControllers/vendorCredit.js';
+import {
+  handleTransferUpload,
+  handleTransferConvert,
+  downloadTransfer,
+  upload as transferUpload
+} from '../controllers/sageControllers/transferHandlers.js'
+
+
 
 
 const router = express.Router();
@@ -121,6 +129,12 @@ const router = express.Router();
 // ✅ Async wrapper to catch errors
 const asyncHandler = (fn) => (req, res, next) =>
   Promise.resolve(fn(req, res, next)).catch(next);
+
+// 🔹 Transfer Routes
+router.post('/upload-transfer', transferUpload.single('file'), handleTransferUpload);
+router.post('/process-transfer', asyncHandler(handleTransferConvert));
+router.get('/download-transfer', asyncHandler(downloadTransfer));
+
 
 // 🔹 Item Routes
 router.post('/upload-Item', itemUpload.single('file'), handleItemUpload);
@@ -242,5 +256,81 @@ router.post('/upload-vendorcredit', upload.fields([
 
 router.post('/process-vendorcredit', asyncHandler(handleVendorCreditConvert));
 router.get('/download-vendorcredit', asyncHandler(downloadVendorCredit));
+
+
+import {
+  uploadBillBundle,
+  handleBillBundleUpload,
+  handleBillBundleConvert,
+  downloadBillBundle
+} from '../controllers/sageControllers/billBundleFinal.js';
+
+// 🔹 Bill Bundle Routes (Bills + Overpayment)
+router.post('/upload-billbundle', uploadBillBundle.fields([
+  { name: 'billPayment', maxCount: 1 },
+  { name: 'coa', maxCount: 1 },
+  { name: 'supplier', maxCount: 1 }
+]), handleBillBundleUpload);
+
+router.post('/process-billbundle', asyncHandler(handleBillBundleConvert));
+
+router.get('/download-billbundle', asyncHandler(downloadBillBundle));
+
+
+import {
+  uploadInvoiceOverpayment,
+  handleInvoiceOverpaymentUpload,
+  handleInvoiceOverpaymentConvert,
+  downloadInvoiceOverpayment
+} from '../controllers/sageControllers/invoiceOverpayment.js';
+
+router.post('/upload-invoiceoverpayment',
+  uploadInvoiceOverpayment.fields([
+    { name: 'invoicePayment', maxCount: 1 },
+    { name: 'coa',            maxCount: 1 }
+  ]),
+  handleInvoiceOverpaymentUpload
+);
+
+router.post('/process-invoiceoverpayment', asyncHandler(handleInvoiceOverpaymentConvert));
+router.get('/download-invoiceoverpayment', asyncHandler(downloadInvoiceOverpayment));
+
+// ✅ NEW: discount module imports (unique names)
+import {
+  uploadInvoiceDiscount,
+  handleInvoiceDiscountUpload,
+  handleInvoiceDiscountConvert,
+  downloadInvoiceDiscount
+} from '../controllers/sageControllers/invoicediscount.js';
+
+router.post('/upload-invoicediscount',
+  uploadInvoiceDiscount.fields([
+    { name: 'invoicePayment', maxCount: 1 }, // 👈 same field your upload uses
+    { name: 'item',           maxCount: 1 },
+    { name: 'coa',            maxCount: 1 },
+    { name: 'tax',            maxCount: 1 }
+  ]),
+  handleInvoiceDiscountUpload
+);
+router.post('/process-invoicediscount', asyncHandler(handleInvoiceDiscountConvert));
+router.get('/download-invoicediscount', asyncHandler(downloadInvoiceDiscount));
+
+
+import {
+  uploadCreditNoteDiscount,
+  handleCreditNoteDiscountUpload,
+  handleCreditNoteDiscountConvert,
+  downloadCreditNoteDiscount
+} from '../controllers/sageControllers/creditNoteDiscount.js';
+
+router.post('/upload-creditnotediscount', uploadCreditNoteDiscount.fields([
+  { name: 'creditNote', maxCount: 1 },
+  { name: 'item', maxCount: 1 },
+  { name: 'coa', maxCount: 1 },
+  { name: 'tax', maxCount: 1 }
+]), handleCreditNoteDiscountUpload);
+
+router.post('/process-creditnotediscount', handleCreditNoteDiscountConvert);
+router.get('/download-creditnotediscount', downloadCreditNoteDiscount);
 
 export default router;

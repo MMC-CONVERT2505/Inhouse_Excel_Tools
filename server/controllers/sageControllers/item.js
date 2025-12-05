@@ -17,7 +17,7 @@ const sageoneToQboItemMapping = {
   'Code': 'Name',
   'Description': ['Sales Description', 'Purchase Description'],
   'Category': 'Category',
-  'Unit': 'Price/rate',
+  'Price Exclusive': 'Price/rate',
   'Item Type (Physical/Service)': 'Type (Service/Inventory/Non-Inventory)',
   'VAT Type Sales': 'Sales Tax Code',
   'VAT Type Purchases': 'Purchase Tax Code',
@@ -47,11 +47,29 @@ const allowedItemColumns = [
   'Inventory asset account',
 ];
 
-// ✅ Clean cell values
+// ✅ Clean text values
 const cleanValue = (value) => {
   if (value === undefined || value === null) return '';
   const str = String(value).trim();
   return str === '*' ? '' : str;
+};
+
+// ✅ Remove "rate/rated" from tax names
+const sanitizeTaxName = (value) => {
+  const v = cleanValue(value);
+  if (!v) return '';
+  const stripped = v
+    .replace(/\brated?\b/gi, '') // remove "rate" or "rated"
+    .replace(/\s+/g, ' ')        // collapse spaces
+    .trim();
+  return stripped;
+};
+
+// ✅ Parse numeric values
+const toNumber = (value) => {
+  if (value === undefined || value === null || value === '') return '';
+  const n = parseFloat(String(value).replace(/[^0-9.\-]/g, ''));
+  return Number.isFinite(n) ? n : '';
 };
 
 // ✅ Setup Upload Folder
@@ -90,26 +108,35 @@ const convertItem = () => {
   const sheetName = workbook.SheetNames[0];
   const data = utils.sheet_to_json(workbook.Sheets[sheetName], { defval: '' });
 
-  const outputRows = data.map((row, index) => {
+  const outputRows = data.map((row) => {
     const newRow = {};
-
     allowedItemColumns.forEach(col => (newRow[col] = ''));
 
+    // main mapping
     Object.entries(sageoneToQboItemMapping).forEach(([sageCol, qboCol]) => {
       const val = cleanValue(row[sageCol]);
 
       if (Array.isArray(qboCol)) {
         qboCol.forEach(qCol => {
-          if (allowedItemColumns.includes(qCol)) {
-            newRow[qCol] = val;
-          }
+          if (allowedItemColumns.includes(qCol)) newRow[qCol] = val;
         });
       } else {
-        if (allowedItemColumns.includes(qboCol)) {
-          newRow[qboCol] = val;
-        }
+        if (allowedItemColumns.includes(qboCol)) newRow[qboCol] = val;
       }
     });
+
+    // Fallback: if sheet has old misspelling
+    if (!newRow['Price/rate'] && row['Price Excluvie'] !== undefined) {
+      newRow['Price/rate'] = cleanValue(row['Price Excluvie']);
+    }
+
+    // ✅ Sanitize tax names
+    newRow['Sales Tax Code']    = sanitizeTaxName(newRow['Sales Tax Code']);
+    newRow['Purchase Tax Code'] = sanitizeTaxName(newRow['Purchase Tax Code']);
+
+    // Parse numeric fields
+    newRow['Price/rate'] = toNumber(newRow['Price/rate']);
+    newRow['Cost']       = toNumber(newRow['Cost']);
 
     // Force default type
     newRow['Type (Service/Inventory/Non-Inventory)'] = 'NonInventory';

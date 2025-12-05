@@ -15,8 +15,14 @@ let uploadedCoaPath = '';
 let uploadedTaxPath = '';
 let uploadedItemPath = '';
 
-// ✅ Format date ➝ dd/mm/yyyy
-function formatDate(value) {
+// ✅ Read Excel into JSON
+function readSheet(filePath) {
+  const wb = readFile(filePath);
+  return utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { defval: '' });
+}
+
+// ✅ Date (Excel serial or ISO) ➝ Date object
+function excelDate(value) {
   try {
     let date;
     if (typeof value === 'number') {
@@ -26,21 +32,11 @@ function formatDate(value) {
     } else {
       date = new Date(value);
     }
-
-    if (isNaN(date.getTime())) return '';
-    const day = String(date.getDate()).padStart(2, '0');
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const year = date.getFullYear();
-    return `${day}/${month}/${year}`;
+    if (isNaN(date.getTime())) return null;
+    return date;
   } catch {
-    return '';
+    return null;
   }
-}
-
-// ✅ Read Excel into JSON
-function readSheet(filePath) {
-  const wb = readFile(filePath);
-  return utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { defval: '' });
 }
 
 // ✅ Tax Mapping
@@ -61,13 +57,12 @@ const uploadDir = join('uploads', 'supplierbill');
 mkdirSync(uploadDir, { recursive: true });
 
 const storage = multer.diskStorage({
-  destination: (req, file, cb) => cb(null, uploadDir),
-  filename: (req, file, cb) => {
+  destination: (_req, _file, cb) => cb(null, uploadDir),
+  filename: (_req, file, cb) => {
     const ext = extname(file.originalname);
     cb(null, `${file.fieldname}_${Date.now()}${ext}`);
   }
 });
-
 const upload = multer({ storage });
 
 // ✅ Upload Handler
@@ -82,9 +77,9 @@ const handleSupplierBillUpload = (req, res) => {
     }
 
     uploadedInvoicePath = req.files.invoice[0].path;
-    uploadedCoaPath = req.files.coa[0].path;
-    uploadedTaxPath = req.files.tax[0].path;
-    uploadedItemPath = req.files.item[0].path;
+    uploadedCoaPath     = req.files.coa[0].path;
+    uploadedTaxPath     = req.files.tax[0].path;
+    uploadedItemPath    = req.files.item[0].path;
 
     console.log('✅ Supplier Bill Invoice path:', uploadedInvoicePath);
     console.log('✅ COA path:', uploadedCoaPath);
@@ -99,7 +94,6 @@ const handleSupplierBillUpload = (req, res) => {
 };
 
 // ✅ Convert Function
-// ✅ Convert Function
 const convertSupplierBill = () => {
   if (
     !fs.existsSync(uploadedInvoicePath) ||
@@ -111,46 +105,35 @@ const convertSupplierBill = () => {
   }
 
   const invoiceData = readSheet(uploadedInvoicePath);
-  const coaData = readSheet(uploadedCoaPath);
-  const taxData = readSheet(uploadedTaxPath);
-  const itemData = readSheet(uploadedItemPath);
+  const coaData     = readSheet(uploadedCoaPath);
+  const taxData     = readSheet(uploadedTaxPath);
+  const itemData    = readSheet(uploadedItemPath);
 
   const finalRows = [];
 
-  // ✅ Helper to convert to real Excel Date
-  function excelDate(value) {
-    try {
-      let date;
-      if (typeof value === 'number') {
-        const utcDays = value - 25569;
-        const utcValue = utcDays * 86400;
-        date = new Date(utcValue * 1000);
-      } else {
-        date = new Date(value);
-      }
-      if (isNaN(date.getTime())) return null;
-      return date;
-    } catch {
-      return null;
-    }
-  }
-
   invoiceData.forEach(row => {
-    const quantity = row['Line_Quantity'] || 1;
-    const rate = row['Line_UnitPriceExclusive'] || 0;
-    const amount = +(quantity * rate).toFixed(2);
-    const lineType = row['LineType'];
-    const selId = row['Line_SelectionId'];
+    const quantity = Number(row['Line_Quantity'] ?? 1) || 1;
+    const unitEx   = Number(row['Line_UnitPriceExclusive'] ?? 0) || 0;
+    // exclusive amount (without tax)
+    const lineExclusive = +(quantity * unitEx).toFixed(2);
+
+    const lineTax  = Number(row['Line_Tax'] ?? 0) || 0;
+
+    // LineType sometimes "0"/"1" (string); normalize
+    const lineType = Number(row['LineType']);
+    const selId    = row['Line_SelectionId'];
 
     // ✅ Get expense account from COA or Item
     let account = 'Unknown';
     if (lineType === 1) {
-      const match = coaData.find(acc => acc.ID === selId);
-      account = match ? match.Name : 'Unknown Account';
+      // 1 => Account/COA
+      const match = coaData.find(acc => String(acc.ID) === String(selId));
+      account = match ? (match.Name || 'Unknown Account') : 'Unknown Account';
     } else if (lineType === 0) {
+      // 0 => Item
       const itemMatch = itemData.find(item => String(item.ID) === String(selId));
       account = itemMatch
-        ? itemMatch['Code'] || itemMatch['Description'] || 'Unknown Item'
+        ? (itemMatch['Code'] || itemMatch['Description'] || 'Unknown Item')
         : 'Unknown Item';
     }
 
@@ -158,9 +141,9 @@ const convertSupplierBill = () => {
     let taxCode = 'Out of Scope';
     const taxTypeId = row['Line_TaxTypeId'];
     if (taxTypeId !== '' && taxTypeId !== null && taxTypeId !== undefined) {
-      const taxRow = taxData.find(t => t.ID === taxTypeId);
+      const taxRow = taxData.find(t => String(t.ID) === String(taxTypeId));
       if (taxRow) {
-        const name = taxRow['Name']?.trim();
+        const name = (taxRow['Name'] || '').trim();
         taxCode = embeddedTaxMapping[name] || '';
       } else {
         taxCode = '';
@@ -168,20 +151,20 @@ const convertSupplierBill = () => {
     }
 
     finalRows.push({
-      'Bill No': String(row['DocumentNumber']).slice(0, 21),
-      'Supplier': row['SupplierName'],
-      'Bill Date': excelDate(row['Date']),   // ✅ Date object
-      'Due Date': excelDate(row['DueDate']), // ✅ Date object
+      'Bill No': String(row['DocumentNumber'] ?? row['Document Number'] ?? '').slice(0, 21),
+      'Supplier': row['SupplierName'] ?? row['Supplier Name'] ?? '',
+      'Bill Date': excelDate(row['Date']),
+      'Due Date': excelDate(row['DueDate'] ?? row['Due Date']),
       'Memo': row['Message'] || '',
       'Global Tax Calculation': 'TaxExcluded',
       'Expense Account': account,
-      'Expense Description': row['Line_Description'],
-      'Expense Line Amount': amount,
+      'Expense Description': row['Line_Description'] || '',
+      'Expense Line Amount': lineExclusive,                 // ✅ exclusive amount
       'Expense Class': '',
       'Expense Tax Code': taxCode || 'Out of Scope',
-      'Expense Account Tax Amount': row['Line_Tax'] || 0,
-      'Currency Code': row['Currency'] || '',
-      'Exchange Rate': row['Exchange rate'] || '',
+      'Expense Account Tax Amount': lineTax,                // ✅ tax amount
+      'Currency Code': row['Currency'] || row['Currency Code'] || '',
+      'Exchange Rate': row['Exchange rate'] || row['Exchange Rate'] || '',
       'Quantity': row['Line_Quantity'] || ''
     });
   });
@@ -195,17 +178,21 @@ const convertSupplierBill = () => {
   const newWb = utils.book_new();
   const newWs = utils.json_to_sheet(finalRows, { cellDates: true });
 
-  // ✅ Apply column widths
+  // ✅ Column widths
   newWs['!cols'] = [
     { wch: 15 }, // Bill No
     { wch: 25 }, // Supplier
     { wch: 12 }, // Bill Date
     { wch: 12 }, // Due Date
+    { wch: 25 }, // Expense Account
+    { wch: 40 }, // Expense Description
+    { wch: 16 }, // Expense Line Amount
+    { wch: 16 }, // Expense Tax Amount
   ];
 
-  // ✅ Force date formatting (dd/mm/yyyy)
+  // ✅ Force date formatting (dd/mm/yyyy) for C & D columns
   Object.keys(newWs).forEach(cell => {
-    if (cell.startsWith('C') || cell.startsWith('D')) { // C = Bill Date, D = Due Date
+    if ((/^C\d+$/).test(cell) || (/^D\d+$/).test(cell)) {
       if (newWs[cell] && newWs[cell].v instanceof Date) {
         newWs[cell].t = 'd';
         newWs[cell].z = 'dd/mm/yyyy';
@@ -216,10 +203,9 @@ const convertSupplierBill = () => {
   utils.book_append_sheet(newWb, newWs, 'Supplier Bills');
   writeFile(newWb, outputPath);
 
-  console.log('✅ Supplier Bill converted:', outputPath);
+  console.log('✅ Supplier Bill converted:', outputPath, ' rows:', finalRows.length);
   return outputPath;
 };
-
 
 // ✅ Convert Handler
 const handleSupplierBillConvert = (req, res) => {
